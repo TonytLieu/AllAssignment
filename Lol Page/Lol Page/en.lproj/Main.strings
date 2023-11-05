@@ -1,0 +1,21 @@
+
+/* Class = "UIButton"; configuration.title = "Back"; ObjectID = "I87-Eh-YW0"; */
+"I87-Eh-YW0.configuration.title" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "I87-Eh-YW0"; */
+"I87-Eh-YW0.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "TgZ-N2-c4v"; */
+"TgZ-N2-c4v.placeholder" = "Email";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "To7-83-Zjs"; */
+"To7-83-Zjs.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "Tony's TrashCan"; ObjectID = "ZuY-pD-fOC"; */
+"ZuY-pD-fOC.text" = "Tony's TrashCan";
+
+/* Class = "UIButton"; configuration.title = "Login"; ObjectID = "pYX-Ej-5fc"; */
+"pYX-Ej-5fc.configuration.title" = "Login";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "pYX-Ej-5fc"; */
+"pYX-Ej-5fc.normalTitle" = "Button";

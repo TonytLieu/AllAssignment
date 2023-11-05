@@ -11,7 +11,7 @@ class PokemonCollectionViewController: UIViewController {
     @IBOutlet weak var pokeCollection: UICollectionView!
     var pokeList: [PokemonModel] = []
     override func viewDidLoad() {
-        CallAPI()
+        getDataFromNetworkManagerUsingProtocolDelegate()
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
@@ -24,6 +24,11 @@ class PokemonCollectionViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    func getDataFromNetworkManagerUsingProtocolDelegate(){
+           let nM = NetworkManager()
+           guard let url = URL(string: "https://digimon-api.vercel.app/api/digimon") else {return}
+            nM.getDataFromAPIusingNetworkProtocol(url: url)
+       }
     func CallAPI(){
         let nM = NetworkManager()
         guard let url = URL(string:"https://digimon-api.vercel.app/api/digimon") else{return}
@@ -58,5 +63,4 @@ extension PokemonCollectionViewController:UICollectionViewDelegate{
     internal func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath){
         print(pokeList[indexPath.row])
     }
-}
 }

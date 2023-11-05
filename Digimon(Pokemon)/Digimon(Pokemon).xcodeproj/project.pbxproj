@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		EB1020412AF6AB40007DE688 /* PokemonCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1020402AF6AB40007DE688 /* PokemonCollectionViewController.swift */; };
 		EB1020472AF6B11B007DE688 /* PokeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1020462AF6B11B007DE688 /* PokeCollectionViewCell.swift */; };
+		EB1020C42AF7F283007DE688 /* SecondStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB1020C32AF7F283007DE688 /* SecondStory.storyboard */; };
+		EB1020C62AF7F459007DE688 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1020C52AF7F459007DE688 /* SecondViewController.swift */; };
 		EB53F08B2AF432BE00FC15A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB53F08A2AF432BE00FC15A6 /* AppDelegate.swift */; };
 		EB53F08D2AF432BE00FC15A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB53F08C2AF432BE00FC15A6 /* SceneDelegate.swift */; };
 		EB53F08F2AF432BE00FC15A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB53F08E2AF432BE00FC15A6 /* ViewController.swift */; };
@@ -47,6 +49,8 @@
 /* Begin PBXFileReference section */
 		EB1020402AF6AB40007DE688 /* PokemonCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCollectionViewController.swift; sourceTree = "<group>"; };
 		EB1020462AF6B11B007DE688 /* PokeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeCollectionViewCell.swift; sourceTree = "<group>"; };
+		EB1020C32AF7F283007DE688 /* SecondStory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondStory.storyboard; sourceTree = "<group>"; };
+		EB1020C52AF7F459007DE688 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		EB53F0872AF432BE00FC15A6 /* Digimon(Pokemon).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digimon(Pokemon).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB53F08A2AF432BE00FC15A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB53F08C2AF432BE00FC15A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +128,7 @@
 				EB53F08A2AF432BE00FC15A6 /* AppDelegate.swift */,
 				EB53F08C2AF432BE00FC15A6 /* SceneDelegate.swift */,
 				EB53F0902AF432BE00FC15A6 /* Main.storyboard */,
+				EB1020C32AF7F283007DE688 /* SecondStory.storyboard */,
 				EB53F0932AF432C000FC15A6 /* Assets.xcassets */,
 				EB53F0952AF432C000FC15A6 /* LaunchScreen.storyboard */,
 				EB53F0E02AF488F200FC15A6 /* TableViewCell.xib */,
@@ -161,6 +166,7 @@
 		EB53F0BF2AF439ED00FC15A6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				EB1020C52AF7F459007DE688 /* SecondViewController.swift */,
 				EB53F08E2AF432BE00FC15A6 /* ViewController.swift */,
 				EB53F0CC2AF4435700FC15A6 /* PokemonViewController.swift */,
 				EB53F0C62AF43E4E00FC15A6 /* PokemonTableViewController.swift */,
@@ -294,6 +300,7 @@
 				EB53F0E12AF488F200FC15A6 /* TableViewCell.xib in Resources */,
 				EB53F0972AF432C000FC15A6 /* LaunchScreen.storyboard in Resources */,
 				EB53F0942AF432C000FC15A6 /* Assets.xcassets in Resources */,
+				EB1020C42AF7F283007DE688 /* SecondStory.storyboard in Resources */,
 				EB53F0922AF432BE00FC15A6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,6 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB1020C62AF7F459007DE688 /* SecondViewController.swift in Sources */,
 				EB53F0C72AF43E4E00FC15A6 /* PokemonTableViewController.swift in Sources */,
 				EB1020472AF6B11B007DE688 /* PokeCollectionViewCell.swift in Sources */,
 				EB53F0E92AF4F6DE00FC15A6 /* TableViewCell.swift in Sources */,

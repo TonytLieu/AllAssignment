@@ -8,14 +8,16 @@
 import UIKit
 
 class SecondViewController: UIViewController {
-
+    var userNamePass:String?
     @IBOutlet weak var secondLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
+    func setLabel(){
+        secondLabel.text = userNamePass
+    }
 
     /*
     // MARK: - Navigation

@@ -31,10 +31,11 @@ class ViewController: UIViewController {
     
     @IBAction func LoginButton(_ sender: Any) {
         //this will check if the username and password is right
-        if loginVal(emailID: userName.text, passwordinput: passwordID.text){
+        if true{
+//        if loginVal(emailID: userName.text, passwordinput: passwordID.text){
             let storyBoard = UIStoryboard(name: "Main", bundle: nil)
                //this makes so i can pass data to the tableViewScence
-               let listVC = storyBoard.instantiateViewController(withIdentifier: "PokemonTableViewController") as! PokemonTableViewController
+               let listVC = storyBoard.instantiateViewController(withIdentifier: "PokemonTableViewControllerID") as! PokemonTableViewController
                self.navigationController?.pushViewController(listVC, animated: true)
                print("login Button tapped")
                
@@ -64,6 +65,13 @@ class ViewController: UIViewController {
         isValid = isEmailValid && isValidPassword
         return isValid
     }
+    @IBAction func SecondStory(_ sender: Any) {
+        let storyBoard = UIStoryboard(name: "SecondStory", bundle: nil)
+           //this makes so i can pass data to the tableViewScence
+           let listVC = storyBoard.instantiateViewController(withIdentifier: "NewViewController") as! SecondViewController
+           self.navigationController?.pushViewController(listVC, animated: true)
+           print("login Button tapped")
+    }
     @IBAction func CollectionButton(_ sender: Any) {
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
            //this makes so i can pass data to the tableViewScence
@@ -71,4 +79,11 @@ class ViewController: UIViewController {
            self.navigationController?.pushViewController(listVC, animated: true)
            print("Collecttion Button tapped")
       }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+         if segue.identifier == "EmailSegue"{
+             if let  SecondViewController = segue.destination as?  SecondViewController{
+                 SecondViewController.userNamePass = userName.text
+             }
+         }
+     }
     }

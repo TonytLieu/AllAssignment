@@ -14,8 +14,8 @@
             filePath = "Digimon(Pokemon)/Controller/PokemonTableViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "tableView(_:numberOfRowsInSection:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,295 +30,10 @@
             filePath = "Digimon(Pokemon)/Controller/PokemonTableViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "96629545-2811-432C-999B-D15A5BF35F40"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Digimon(Pokemon)/Controller/PokemonTableViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "CallAPI()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "96629545-2811-432C-999B-D15A5BF35F40 - a279be55c39312e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Digimon_Pokemon_.PokemonTableViewController.CallAPI() -&gt; ()"
-                  moduleName = "Digimon(Pokemon)"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Digimon(Pokemon)/Digimon(Pokemon)/Controller/PokemonTableViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "332">
-               </Location>
-               <Location
-                  uuid = "96629545-2811-432C-999B-D15A5BF35F40 - c3d4698396954907"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Digimon_Pokemon_.PokemonModel, Swift.Error&gt;) -&gt; () in Digimon_Pokemon_.PokemonTableViewController.CallAPI() -&gt; ()"
-                  moduleName = "Digimon(Pokemon)"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Digimon(Pokemon)/Digimon(Pokemon)/Controller/PokemonTableViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "432">
-               </Location>
-               <Location
-                  uuid = "96629545-2811-432C-999B-D15A5BF35F40 - c3d4698396954907"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Digimon_Pokemon_.PokemonModel, Swift.Error&gt;) -&gt; () in Digimon_Pokemon_.PokemonTableViewController.CallAPI() -&gt; ()"
-                  moduleName = "Digimon(Pokemon)"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Digimon(Pokemon)/Digimon(Pokemon)/Controller/PokemonTableViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "416">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4775FB12-2FAC-4C60-AC9A-5496F3D7C3D8"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Digimon(Pokemon)/Controller/PokemonTableViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "CallAPI()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "4775FB12-2FAC-4C60-AC9A-5496F3D7C3D8 - c3d4698396954949"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Digimon_Pokemon_.PokemonModel, Swift.Error&gt;) -&gt; () in Digimon_Pokemon_.PokemonTableViewController.CallAPI() -&gt; ()"
-                  moduleName = "Digimon(Pokemon)"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Digimon(Pokemon)/Digimon(Pokemon)/Controller/PokemonTableViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "528">
-               </Location>
-               <Location
-                  uuid = "4775FB12-2FAC-4C60-AC9A-5496F3D7C3D8 - c3d4698396954949"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Digimon_Pokemon_.PokemonModel, Swift.Error&gt;) -&gt; () in Digimon_Pokemon_.PokemonTableViewController.CallAPI() -&gt; ()"
-                  moduleName = "Digimon(Pokemon)"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Digimon(Pokemon)/Digimon(Pokemon)/Controller/PokemonTableViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "672">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "92A49D09-05AA-4921-8692-3EBFC6E3297F"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Digimon(Pokemon)/Network/NetworkManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "getDataFromAPI(url:modelType:completionHandler:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "92A49D09-05AA-4921-8692-3EBFC6E3297F - ccf70a9a5887b704"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Digimon_Pokemon_.NetworkManager.getDataFromAPI&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(url: Foundation.URL, modelType: &#x3c4;_0_0.Type, completionHandler: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "Digimon(Pokemon)"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Digimon(Pokemon)/Digimon(Pokemon)/Network/NetworkManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "452">
-               </Location>
-               <Location
-                  uuid = "92A49D09-05AA-4921-8692-3EBFC6E3297F - ccf70a9a5887b704"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Digimon_Pokemon_.NetworkManager.getDataFromAPI&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(url: Foundation.URL, modelType: &#x3c4;_0_0.Type, completionHandler: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "Digimon(Pokemon)"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Digimon(Pokemon)/Digimon(Pokemon)/Network/NetworkManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "532">
-               </Location>
-               <Location
-                  uuid = "92A49D09-05AA-4921-8692-3EBFC6E3297F - ccf70a9a5887b4eb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Digimon_Pokemon_.NetworkManager.getDataFromAPI&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(url: Foundation.URL, modelType: &#x3c4;_0_0.Type, completionHandler: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "Digimon(Pokemon)"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Digimon(Pokemon)/Digimon(Pokemon)/Network/NetworkManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "452">
-               </Location>
-               <Location
-                  uuid = "92A49D09-05AA-4921-8692-3EBFC6E3297F - ccf70a9a5887b4eb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Digimon_Pokemon_.NetworkManager.getDataFromAPI&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(url: Foundation.URL, modelType: &#x3c4;_0_0.Type, completionHandler: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "Digimon(Pokemon)"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Digimon(Pokemon)/Digimon(Pokemon)/Network/NetworkManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "532">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "B4466F20-6864-4FEF-989F-C0E87DAF0824"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Digimon(Pokemon)/Network/NetworkManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "getDataFromAPI(url:modelType:completionHandler:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "B4466F20-6864-4FEF-989F-C0E87DAF0824 - ccf70a9a5887b698"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Digimon_Pokemon_.NetworkManager.getDataFromAPI&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(url: Foundation.URL, modelType: &#x3c4;_0_0.Type, completionHandler: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "Digimon(Pokemon)"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Digimon(Pokemon)/Digimon(Pokemon)/Network/NetworkManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "1672">
-               </Location>
-               <Location
-                  uuid = "B4466F20-6864-4FEF-989F-C0E87DAF0824 - ccf70a9a5887b67f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Digimon_Pokemon_.NetworkManager.getDataFromAPI&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(url: Foundation.URL, modelType: &#x3c4;_0_0.Type, completionHandler: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "Digimon(Pokemon)"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Digimon(Pokemon)/Digimon(Pokemon)/Network/NetworkManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "1672">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "90178DBD-9672-4E60-A3CB-ED475563159D"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Digimon(Pokemon)/Network/NetworkManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "getDataFromAPI(url:modelType:completionHandler:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "90178DBD-9672-4E60-A3CB-ED475563159D - ccf70a9a5887b6b9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Digimon_Pokemon_.NetworkManager.getDataFromAPI&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(url: Foundation.URL, modelType: &#x3c4;_0_0.Type, completionHandler: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "Digimon(Pokemon)"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Digimon(Pokemon)/Digimon(Pokemon)/Network/NetworkManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "1784">
-               </Location>
-               <Location
-                  uuid = "90178DBD-9672-4E60-A3CB-ED475563159D - ccf70a9a5887b698"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Digimon_Pokemon_.NetworkManager.getDataFromAPI&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(url: Foundation.URL, modelType: &#x3c4;_0_0.Type, completionHandler: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "Digimon(Pokemon)"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Digimon(Pokemon)/Digimon(Pokemon)/Network/NetworkManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "1784">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -331,8 +46,8 @@
             filePath = "Digimon(Pokemon)/Controller/PokemonTableViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
             landmarkName = "tableView(_:didSelectRowAt:)"
             landmarkType = "7">
             <Locations>
@@ -379,10 +94,42 @@
             filePath = "Digimon(Pokemon)/Controller/PokemonTableViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
             landmarkName = "tableView(_:didSelectRowAt:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FDA95AD9-5FCD-489F-B1F6-35B019D175B3 - 668f0da388b79bd0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Digimon_Pokemon_.PokemonTableViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Digimon(Pokemon)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Digimon(Pokemon)/Digimon(Pokemon)/Controller/PokemonTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "1376">
+               </Location>
+               <Location
+                  uuid = "FDA95AD9-5FCD-489F-B1F6-35B019D175B3 - 668f0da388b79bd0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Digimon_Pokemon_.PokemonTableViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Digimon(Pokemon)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Digimon(Pokemon)/Digimon(Pokemon)/Controller/PokemonTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "1112">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -395,8 +142,8 @@
             filePath = "Digimon(Pokemon)/Controller/PokemonCollectionViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "collectionView(_:numberOfItemsInSection:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -411,8 +158,8 @@
             filePath = "Digimon(Pokemon)/Controller/PokemonCollectionViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
             landmarkName = "PokemonCollectionViewController"
             landmarkType = "21">
             <Locations>
@@ -507,8 +254,8 @@
             filePath = "Digimon(Pokemon)/Controller/PokemonCollectionViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "collectionView(_:numberOfItemsInSection:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -523,8 +270,8 @@
             filePath = "Digimon(Pokemon)/Controller/PokemonCollectionViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "collectionView(_:numberOfItemsInSection:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -539,8 +286,8 @@
             filePath = "Digimon(Pokemon)/Controller/PokemonCollectionViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "collectionView(_:cellForItemAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -569,8 +316,8 @@
             filePath = "Digimon(Pokemon)/Controller/PokemonCollectionViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "CallAPI()"
             landmarkType = "7">
             <Locations>
@@ -604,6 +351,21 @@
                   endingLineNumber = "33"
                   offsetFromSymbolStart = "344">
                </Location>
+               <Location
+                  uuid = "960AA944-32B8-4E65-B7AC-B395EB92C2AF - bca76d6ffbe6bd7c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;Digimon_Pokemon_.PokemonModel&gt;, Swift.Error&gt;) -&gt; () in Digimon_Pokemon_.PokemonCollectionViewController.CallAPI() -&gt; ()"
+                  moduleName = "Digimon(Pokemon)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Digimon(Pokemon)/Digimon(Pokemon)/Controller/PokemonCollectionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "344">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -621,6 +383,148 @@
             endingLineNumber = "11"
             landmarkName = "PokeCollectionViewCell"
             landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4144A74C-5B1B-4B1C-9E54-766D310AB5A1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Digimon(Pokemon)/Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "getDataFromAPIusingNetworkProtocol(url:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4144A74C-5B1B-4B1C-9E54-766D310AB5A1 - 97e2928447cd1626"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Digimon_Pokemon_.NetworkManager.getDataFromAPIusingNetworkProtocol(url: Foundation.URL) -&gt; ()"
+                  moduleName = "Digimon(Pokemon)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Digimon(Pokemon)/Digimon(Pokemon)/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "1340">
+               </Location>
+               <Location
+                  uuid = "4144A74C-5B1B-4B1C-9E54-766D310AB5A1 - 97e2928447cd1626"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Digimon_Pokemon_.NetworkManager.getDataFromAPIusingNetworkProtocol(url: Foundation.URL) -&gt; ()"
+                  moduleName = "Digimon(Pokemon)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Digimon(Pokemon)/Digimon(Pokemon)/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "1312">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F7BAAFE7-156E-4CC7-BD18-FEA27546E03D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Digimon(Pokemon)/Controller/PokemonTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "didFinishWithResoinse(PokemonData:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F7BAAFE7-156E-4CC7-BD18-FEA27546E03D - 845c5970b7d25799"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Digimon_Pokemon_.PokemonTableViewController.didFinishWithResoinse(PokemonData: Swift.Array&lt;Digimon_Pokemon_.PokemonModel&gt;) -&gt; ()"
+                  moduleName = "Digimon(Pokemon)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Digimon(Pokemon)/Digimon(Pokemon)/Controller/PokemonTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "236">
+               </Location>
+               <Location
+                  uuid = "F7BAAFE7-156E-4CC7-BD18-FEA27546E03D - 845c5970b7d25799"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Digimon_Pokemon_.PokemonTableViewController.didFinishWithResoinse(PokemonData: Swift.Array&lt;Digimon_Pokemon_.PokemonModel&gt;) -&gt; ()"
+                  moduleName = "Digimon(Pokemon)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Digimon(Pokemon)/Digimon(Pokemon)/Controller/PokemonTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "F7BAAFE7-156E-4CC7-BD18-FEA27546E03D - 845c5970b7d257b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Digimon_Pokemon_.PokemonTableViewController.didFinishWithResoinse(PokemonData: Swift.Array&lt;Digimon_Pokemon_.PokemonModel&gt;) -&gt; ()"
+                  moduleName = "Digimon(Pokemon)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Digimon(Pokemon)/Digimon(Pokemon)/Controller/PokemonTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "F7BAAFE7-156E-4CC7-BD18-FEA27546E03D - f78e40afab617e1f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in Digimon_Pokemon_.PokemonTableViewController.didFinishWithResoinse(PokemonData: Swift.Array&lt;Digimon_Pokemon_.PokemonModel&gt;) -&gt; ()"
+                  moduleName = "Digimon(Pokemon)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Digimon(Pokemon)/Digimon(Pokemon)/Controller/PokemonTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "60FD26B5-185C-440B-BFA3-C2BA2D97E1D9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Digimon(Pokemon)/Controller/PokemonTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "didFinishWithResoinse(PokemonData:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

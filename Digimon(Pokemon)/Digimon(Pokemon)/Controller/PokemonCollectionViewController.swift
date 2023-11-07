@@ -35,8 +35,10 @@ class PokemonCollectionViewController: UIViewController {
         nM.getDataFromAPI(url: url, modelType: [PokemonModel].self ) { results in
             switch results{
             case .success(let PokemonData):
-                self.pokeList.append(contentsOf: PokemonData)
+               
                 DispatchQueue.main.async {
+                    self.pokeList.append(contentsOf: PokemonData)
+
                     self.pokeCollection.reloadData()
                 }
             case .failure(let error):

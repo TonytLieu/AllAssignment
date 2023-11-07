@@ -68,7 +68,7 @@ class ViewController: UIViewController {
     @IBAction func SecondStory(_ sender: Any) {
         let storyBoard = UIStoryboard(name: "SecondStory", bundle: nil)
            //this makes so i can pass data to the tableViewScence
-           let listVC = storyBoard.instantiateViewController(withIdentifier: "NewViewController") as! SecondViewController
+           let listVC = storyBoard.instantiateViewController(withIdentifier: "NewViewControllerID") as! SecondViewController
            self.navigationController?.pushViewController(listVC, animated: true)
            print("login Button tapped")
     }
@@ -80,10 +80,18 @@ class ViewController: UIViewController {
            print("Collecttion Button tapped")
       }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-         if segue.identifier == "EmailSegue"{
+         if segue.identifier == "userNamePass"{
              if let  SecondViewController = segue.destination as?  SecondViewController{
-                 SecondViewController.userNamePass = userName.text
+                 SecondViewController.secondLabel.text = userName.text
              }
          }
      }
     }
+protocol DetailsDataProtocol{
+    func getDataFromSecondScree(data:String)
+}
+extension ViewController:DetailsDataProtocol{
+    func getDataFromSecondScree(data: String) {
+        
+    }
+}

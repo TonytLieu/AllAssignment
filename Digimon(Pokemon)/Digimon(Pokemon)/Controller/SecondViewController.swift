@@ -15,9 +15,6 @@ class SecondViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    func setLabel(){
-        secondLabel.text = userNamePass
-    }
 
     /*
     // MARK: - Navigation

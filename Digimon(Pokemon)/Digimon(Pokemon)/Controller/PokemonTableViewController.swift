@@ -70,7 +70,7 @@ extension PokemonTableViewController:UITableViewDataSource{
 extension PokemonTableViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let poke = storyboard.instantiateViewController(identifier: "PokemonViewControllerID") as! PokemonViewController
+        let poke = storyboard.instantiateViewController(identifier: "PokemonViewController") as! PokemonViewController
         let number = pokeList[indexPath.row].name
         let number2 = pokeList[indexPath.row].level
         let number3 = pokeList[indexPath.row].img
@@ -85,14 +85,12 @@ extension PokemonTableViewController: UITableViewDelegate {
 
 extension PokemonTableViewController: NetworkResponseProtocol{
     func didFinishWithResoinse(PokemonData: [PokemonModel]) {
-        
         DispatchQueue.main.async {
             self.pokeList.append(contentsOf: PokemonData)
             self.tables.reloadData()
         }
         
     }
-    
     func didFinishWithError(error: Error) {
     }
     

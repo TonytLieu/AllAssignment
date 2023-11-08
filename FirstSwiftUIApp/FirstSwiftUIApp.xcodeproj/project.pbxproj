@@ -20,6 +20,11 @@
 		EB1021062AF9487E007DE688 /* viewCellCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1021052AF9487E007DE688 /* viewCellCollection.swift */; };
 		EB1021082AF94CBB007DE688 /* ImageDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1021072AF94CBB007DE688 /* ImageDisplay.swift */; };
 		EB10210A2AF969E4007DE688 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1021092AF969E4007DE688 /* Collection.swift */; };
+		EB8136172AFA7E17007FC0F4 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8136162AFA7E17007FC0F4 /* SwiftUIView.swift */; };
+		EB8136192AFA7FBC007FC0F4 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8136182AFA7FBC007FC0F4 /* WebView.swift */; };
+		EB81361B2AFA8BA7007FC0F4 /* TabBarViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB81361A2AFA8BA7007FC0F4 /* TabBarViews.swift */; };
+		EB81361D2AFA8EE9007FC0F4 /* GemoriticReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB81361C2AFA8EE9007FC0F4 /* GemoriticReaderView.swift */; };
+		EB81361F2AFAA9CC007FC0F4 /* splitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB81361E2AFAA9CC007FC0F4 /* splitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +61,11 @@
 		EB1021052AF9487E007DE688 /* viewCellCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewCellCollection.swift; sourceTree = "<group>"; };
 		EB1021072AF94CBB007DE688 /* ImageDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDisplay.swift; sourceTree = "<group>"; };
 		EB1021092AF969E4007DE688 /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		EB8136162AFA7E17007FC0F4 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		EB8136182AFA7FBC007FC0F4 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		EB81361A2AFA8BA7007FC0F4 /* TabBarViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViews.swift; sourceTree = "<group>"; };
+		EB81361C2AFA8EE9007FC0F4 /* GemoriticReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GemoriticReaderView.swift; sourceTree = "<group>"; };
+		EB81361E2AFAA9CC007FC0F4 /* splitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +128,15 @@
 		EB1020D92AF92B2A007DE688 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				EB8136162AFA7E17007FC0F4 /* SwiftUIView.swift */,
 				EB1020DA2AF92B2A007DE688 /* Preview Assets.xcassets */,
 				EB1020FD2AF93803007DE688 /* ListScreen.swift */,
 				EB1021072AF94CBB007DE688 /* ImageDisplay.swift */,
 				EB1021092AF969E4007DE688 /* Collection.swift */,
+				EB8136182AFA7FBC007FC0F4 /* WebView.swift */,
+				EB81361A2AFA8BA7007FC0F4 /* TabBarViews.swift */,
+				EB81361C2AFA8EE9007FC0F4 /* GemoriticReaderView.swift */,
+				EB81361E2AFAA9CC007FC0F4 /* splitView.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -284,11 +299,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB1021022AF94599007DE688 /* DetailScreen.swift in Sources */,
+				EB8136192AFA7FBC007FC0F4 /* WebView.swift in Sources */,
+				EB81361B2AFA8BA7007FC0F4 /* TabBarViews.swift in Sources */,
 				EB1020D62AF92B28007DE688 /* ContentView.swift in Sources */,
+				EB8136172AFA7E17007FC0F4 /* SwiftUIView.swift in Sources */,
 				EB1021062AF9487E007DE688 /* viewCellCollection.swift in Sources */,
 				EB1021002AF93D58007DE688 /* ListCell.swift in Sources */,
 				EB1020FE2AF93803007DE688 /* ListScreen.swift in Sources */,
+				EB81361F2AFAA9CC007FC0F4 /* splitView.swift in Sources */,
 				EB1021082AF94CBB007DE688 /* ImageDisplay.swift in Sources */,
+				EB81361D2AFA8EE9007FC0F4 /* GemoriticReaderView.swift in Sources */,
 				EB1020D42AF92B28007DE688 /* FirstSwiftUIAppApp.swift in Sources */,
 				EB10210A2AF969E4007DE688 /* Collection.swift in Sources */,
 			);

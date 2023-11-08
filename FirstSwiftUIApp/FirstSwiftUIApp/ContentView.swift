@@ -21,42 +21,65 @@ struct ContentView: View {
     @State var emailID:String = ""
     @State var password:String = ""
     var body: some View {
-        NavigationStack{
+        NavigationStack{ //IOS 16.0
+        //NavigationView{// less than IOS 16.0
             //all information need to wrap in VStack and HStack changes the strutrue of the from up down to side by side
-            VStack(spacing: 20) {
-                Image("dump")
-                    .imageScale(.large)
-                    .foregroundStyle(.tint)
-                    .frame(maxWidth: .infinity)
-                //padding is for space between items
-                //.padding(100)
-                    .colorInvert()
-                Text("Hello, world Bubby")
-                TextField("Email ", text: $emailID)
-                    .textFieldStyle(.roundedBorder)
-                SecureField("Password", text: $password)
-                    .textFieldStyle(.roundedBorder)
-                /*Button("Login"){
-                    print("Login button tapped")
-                }.buttonStyle(.bordered)
-                    .background(.orange)*/
-                NavigationLink("Login"){
-                    ListScreen()
-                        
-                }.buttonStyle(.borderedProminent)
-                NavigationLink("Collection"){
-                    Collection()
-                }.buttonStyle(.borderedProminent)
-                NavigationLink("ImageDisplay"){
-                   ImageDisplay()
-                }.buttonStyle(.borderedProminent)
-                Spacer()//this will adject view to the top
+    //this will adject view to the top
+            containerView()
             }
             .padding()
             .navigationTitle("Login")
             .navigationBarTitleDisplayMode(.inline)
-            .background(.red)
+            //.background(.red)
         }
+    @ViewBuilder
+    func containerView() -> some View{
+        VStack(spacing: 20) {
+            Image("dump")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+                .frame(maxWidth: .infinity)
+            //padding is for space between items
+            //.padding(100)
+                .colorInvert()
+            Text("Hello, world Bubby")
+            TextField("Email ", text: $emailID)
+                .textFieldStyle(.roundedBorder)
+            SecureField("Password", text: $password)
+                .textFieldStyle(.roundedBorder)
+            /*Button("Login"){
+                print("Login button tapped")
+            }.buttonStyle(.bordered)
+                .background(.orange)*/
+            NavigationLink("Login"){
+                ListScreen()
+                    
+            }.buttonStyle(.borderedProminent)
+            NavigationLink("Collection"){
+                Collection()
+            }.buttonStyle(.borderedProminent)
+            NavigationLink("ImageDisplay"){
+               ImageDisplay()
+            }.buttonStyle(.borderedProminent)
+            NavigationLink("WebView"){
+                    WebView()
+            }.buttonStyle(.borderedProminent)
+            NavigationLink("SwiftUI"){
+               SwiftUIView()
+            }
+            Spacer()//this will adject view to the top
+        }
+    }
+    }
+@ViewBuilder
+func TabFo()->some View{
+    TabView{
+        ListScreen()
+            .tabItem {  Image(systemName: "square.and.arrow.up")
+                Text("1st tab") }
+        Collection()
+            .tabItem {  Image(systemName: "square.and.arrow.up")
+                Text("2st tab") }
     }
 }
 

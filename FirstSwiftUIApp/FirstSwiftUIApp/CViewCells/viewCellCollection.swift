@@ -13,9 +13,9 @@ struct viewCellCollection: View {
         RoundedRectangle(cornerRadius: 10)
             .fill(.red)
            .overlay{
-            Image("dump")
+            /*Image("dump")
                    .resizable()
-                   .foregroundColor(.white)
+                   .foregroundColor(.white)*/
             Text(cellData)
                    .font(.title2)
             }

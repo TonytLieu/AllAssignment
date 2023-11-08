@@ -13,7 +13,6 @@ struct ListCell: View {
         HStack{
             Image(systemName: "doc.on.doc.fill")
             Text(show)
-                .colorInvert()
         }.onTapGesture {
             print(show)
         }

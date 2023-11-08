@@ -13,36 +13,38 @@ struct Collection: View {
     private var foodColums = [GridItem(),GridItem(),GridItem()]
     var body: some View {
         // Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-        ScrollView{
-            
-            LazyVGrid(columns: foodColums){
-                VStack{
+        VStack{
+            ScrollView(){
+                LazyVGrid(columns: foodColums){
+                   // HStack{
                         ForEach(anime, id:\.self){show in
                             NavigationLink{
                                 DetailScreen()
                             }
                         label:{viewCellCollection(cellData: show)
-                                .frame(width: 100, height: 100)
-                            }
+                             //   .frame(width: 100, height: 100)
                         }
+                        }
+                    //}
+                    //.padding()
                 }
-                .padding(50)
-            }
-            ScrollView(.horizontal){
-                LazyHGrid(rows: foodColums){
-                    HStack{
+               // .padding(10)
+                ScrollView(.horizontal){
+                    LazyHGrid(rows: foodColums){
+                       // HStack{
                             ForEach(anime2, id:\.self){show in
                                 NavigationLink{
                                     ImageDisplay()
                                 }label:{viewCellCollection(cellData: show)
-                                        .frame(width: 200, height: 200)
-                                }.navigationTitle("Navigation")
-                                }
+                                       // .frame(width: 200, height: 200)
+                                }//.navigationTitle("Navigation")
                             }
+                       // }
                     }
                 }
             }
-        }
+        }.padding(10)
+    }
     }
 #Preview {
     Collection()

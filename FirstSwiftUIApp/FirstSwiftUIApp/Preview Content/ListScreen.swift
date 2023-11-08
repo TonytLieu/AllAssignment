@@ -12,27 +12,29 @@ struct ListScreen: View {
     private var anime2 = ["naruto", "Sams", "Bleach"]
     var body: some View {
         VStack{
-            Section("1st Section"){
-                List(anime, id:\.self){ show in
-                    HStack{
-                        Image(systemName: "doc.on.doc.fill")
-                        Text(show)
-                    }.onTapGesture {
-                        print(show)
+            List{
+                Section("1st Section"){
+                    ForEach(anime, id:\.self){ show in
+                        HStack{
+                            Image(systemName: "doc.on.doc.fill")
+                            Text(show)
+                        }.onTapGesture {
+                            print(show)
+                        }
                     }
                 }
-            }
-            Section("2nd Section"){
-                List{
+                Section("2nd Section"){
                     ForEach(anime2, id:\.self){show in
                         NavigationLink{
-                           DetailScreen()
-                        }label:{ListCell(show: show)
+                            DetailScreen()
                         }
+                    label:
+                        {ListCell(show: show)
                         }
-                      
                     }
+                    
                 }
+            }
             }
         }
     }

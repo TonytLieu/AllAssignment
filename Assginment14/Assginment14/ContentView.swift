@@ -24,8 +24,7 @@ struct ContentView: View {
 }
 @ViewBuilder
 func firstPage()-> some View{
-    weak var naviController: UINavigationController?
-
+    var naviController: UINavigationController?
     Text("Food")
         .font(.largeTitle)
     ZStack{
@@ -35,9 +34,8 @@ func firstPage()-> some View{
         }placeholder: {
             ProgressView()
         }
-        
         NavigationLink("Food.com"){
-            FoodWeb()
+            FoodTab()
         }.buttonStyle(.bordered)
             .colorMultiply(.orange)
             .buttonBorderShape(.capsule)
@@ -59,8 +57,9 @@ func firstPage()-> some View{
                 
                 Button("UIKit"){
                     let storyboard = UIStoryboard(name: "Storyboard", bundle: nil)
-                    let vC = storyboard.instantiateViewController(withIdentifier: "SecondStroyyID")
+                    let vC = storyboard.instantiateViewController(withIdentifier: "SecondStoryID")
                     print("it ran")
+                    naviController = UINavigationController()
                     naviController?.pushViewController(vC, animated: true)
                     }.colorMultiply(.orange)
                     .buttonBorderShape(.capsule)

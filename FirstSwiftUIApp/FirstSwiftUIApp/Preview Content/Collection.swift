@@ -19,7 +19,7 @@ struct Collection: View {
                    // HStack{
                         ForEach(anime, id:\.self){show in
                             NavigationLink{
-                                DetailScreen()
+                               // DetailScreen()
                             }
                         label:{viewCellCollection(cellData: show)
                              //   .frame(width: 100, height: 100)

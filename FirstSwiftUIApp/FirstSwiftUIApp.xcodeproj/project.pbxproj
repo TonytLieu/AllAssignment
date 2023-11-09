@@ -25,6 +25,7 @@
 		EB81361B2AFA8BA7007FC0F4 /* TabBarViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB81361A2AFA8BA7007FC0F4 /* TabBarViews.swift */; };
 		EB81361D2AFA8EE9007FC0F4 /* GemoriticReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB81361C2AFA8EE9007FC0F4 /* GemoriticReaderView.swift */; };
 		EB81361F2AFAA9CC007FC0F4 /* splitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB81361E2AFAA9CC007FC0F4 /* splitView.swift */; };
+		EB8136652AFBE15E007FC0F4 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8136642AFBE15E007FC0F4 /* UserInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		EB81361A2AFA8BA7007FC0F4 /* TabBarViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViews.swift; sourceTree = "<group>"; };
 		EB81361C2AFA8EE9007FC0F4 /* GemoriticReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GemoriticReaderView.swift; sourceTree = "<group>"; };
 		EB81361E2AFAA9CC007FC0F4 /* splitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splitView.swift; sourceTree = "<group>"; };
+		EB8136642AFBE15E007FC0F4 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 				EB1021052AF9487E007DE688 /* viewCellCollection.swift */,
 				EB1020FF2AF93D58007DE688 /* ListCell.swift */,
 				EB1021012AF94599007DE688 /* DetailScreen.swift */,
+				EB8136642AFBE15E007FC0F4 /* UserInfo.swift */,
 			);
 			path = CViewCells;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				EB1021082AF94CBB007DE688 /* ImageDisplay.swift in Sources */,
 				EB81361D2AFA8EE9007FC0F4 /* GemoriticReaderView.swift in Sources */,
 				EB1020D42AF92B28007DE688 /* FirstSwiftUIAppApp.swift in Sources */,
+				EB8136652AFBE15E007FC0F4 /* UserInfo.swift in Sources */,
 				EB10210A2AF969E4007DE688 /* Collection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

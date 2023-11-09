@@ -9,7 +9,6 @@ import UIKit
 import SwiftUI
 
 class SecondStroyViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,6 +19,7 @@ class SecondStroyViewController: UIViewController {
         let vC = UIHostingController(rootView: ContentView())
         self.navigationController?.pushViewController(vC, animated: true)
     }
+    
     
     /*
     // MARK: - Navigation

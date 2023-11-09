@@ -10,8 +10,10 @@ import SwiftUI
 struct ListScreen: View {
     private var anime = ["chainsawMan","Dr.Stone", "Ohana"]
     private var anime2 = ["naruto", "Sams", "Bleach"]
+    @EnvironmentObject var user:UserInfo
     var body: some View {
         VStack{
+            //Text(user.userName)
             List{
                 Section("1st Section"){
                     ForEach(anime, id:\.self){ show in
@@ -26,7 +28,7 @@ struct ListScreen: View {
                 Section("2nd Section"){
                     ForEach(anime2, id:\.self){show in
                         NavigationLink{
-                            DetailScreen()
+                          //  DetailScreen()
                         }
                     label:
                         {ListCell(show: show)

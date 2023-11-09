@@ -10,7 +10,7 @@ import SwiftUI
 struct FoodTab: View {
     var body: some View {
         TabView{
-            ContentView()
+            FoodWeb()
                 .tabItem {
                     Image(systemName: "house")
                     Text("Home")

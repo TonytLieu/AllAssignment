@@ -3,14 +3,16 @@
 //  FirstSwiftUIApp
 //
 /*
- Create a new Project in SwiftUI  covering the below screens.
- Screen 1- Login Screen UI same design as we did in UIKitx
- ADD Multiple button for further screen navigation, Use Navigation Stack and NavigationLink for navigationsx
- Screen 2- Details screen. Take the same login screen and show its details here using,  SwiftUI componentsx
- Screen 3- List usage, show any array data of ur choice,x
- Screen 4 - Use Grid, LazyVGrid,LazyHGrid, to show the same data which we had shown in the table view, also navigate to the Screen 5 - Detail screen on the Grid item and click
- Screen 6 - show use of Image and AsyncImage
- Design cells for List and Grid screens separatelyx
+Propery Wrapper in SwifftUI
+ they add exta meaning to variables
+ 1.state- any simple data types
+ 2.Binding-when you want to share data between 2 screens or children
+ 3.StatesObject
+ 4.ObeseverdObject
+ 6.ObseveaableObject
+ 7EviormentObject
+ 8.AppStorage
+ 9.Fetch- coredata
  */
 //  Created by Tony Lieu on 11/6/23.
 //
@@ -20,7 +22,22 @@ import SwiftUI
 struct ContentView: View {
     @State var emailID:String = ""
     @State var password:String = ""
+    @State  var screenTitile: String = "welcome to DigiPokemon"
+    @Environment(\.colorScheme) var colorScheme
+    @Environment(\.verticalSizeClass) var vSizeClass
     var body: some View {
+     /*   if colorScheme == .light{
+            Text(screenTitile).foregroundStyle(.red)
+        }else{
+            Text(screenTitile).foregroundStyle(.green)
+        }*/
+        if(vSizeClass == . regular){
+            Text(screenTitile).foregroundStyle(colorScheme == .light ? .red: .green)
+        }else{
+            HStack{
+                Text(screenTitile).foregroundStyle(colorScheme == .light ? .red: .green)
+            }
+        }
         NavigationStack{ //IOS 16.0
         //NavigationView{// less than IOS 16.0
             //all information need to wrap in VStack and HStack changes the strutrue of the from up down to side by side
@@ -42,7 +59,7 @@ struct ContentView: View {
             //padding is for space between items
             //.padding(100)
                 .colorInvert()
-            Text("Hello, world Bubby")
+            Text(screenTitile)
             TextField("Email ", text: $emailID)
                 .textFieldStyle(.roundedBorder)
             SecureField("Password", text: $password)
@@ -65,7 +82,10 @@ struct ContentView: View {
                     WebView()
             }.buttonStyle(.borderedProminent)
             NavigationLink("SwiftUI"){
-               SwiftUIView()
+                DetailScreen(changeTitle: $screenTitile)
+            }
+            Button("button"){
+                screenTitile = "heello"
             }
             Spacer()//this will adject view to the top
         }
@@ -86,3 +106,4 @@ func TabFo()->some View{
 #Preview {
     return ContentView()
 }
+

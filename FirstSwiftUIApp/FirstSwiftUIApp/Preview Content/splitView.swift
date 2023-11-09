@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct splitView: View {
+    private var anime = ["chainsawMan","Dr.Stone","Ohana","sitch"]
+    @State var selected:String?
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationSplitView{//left side bar
+            List(anime, id:\.self){show in
+                Text(show)
+            }
+        }detail: {//right side view
+            if let selected = selected{
+               // DetailScreen()
+            }
+        }
     }
 }
 

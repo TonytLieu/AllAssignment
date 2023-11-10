@@ -1,25 +1,14 @@
 //
-//  FirstSwiftUIAppTests.swift
-//  FirstSwiftUIAppTests
+//  LoginTests.swift
+//  LoginTests
 //
-//  Created by Tony Lieu on 11/6/23.
+//  Created by Tony Lieu on 11/9/23.
 //
-/*
- Test Cases
- Unit Test Cases
- UI Test Cases
- XCTest - framework
- 
- Given
- when
- then
- 
- */
 
 import XCTest
-@testable import FirstSwiftUIApp
+@testable import Login
 
-final class FirstSwiftUIAppTests: XCTestCase {
+final class LoginTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -16,6 +16,7 @@ var emailAddress:String?
 var numberArray = ["1","2","3"]
 var fruit = ["bannana","orange","apple"]
 var userList: [User] = []
+ private  var tabs :TableCallApiModel = TableCallApiModel()
 @IBOutlet weak var tables: UITableView!
 override func viewDidLoad() {
     super.viewDidLoad()
@@ -25,9 +26,10 @@ override func viewDidLoad() {
     let cellXib = UINib(nibName: "CustomTableTableViewCell", bundle: nil)
     tables.register(cellXib, forCellReuseIdentifier: "customCellID")
     //readTheDataFromJSONFile()
-    CallAPI()
+    //move my callApi and read json to a viewmodel
+    tabs.CallAPI(tables: tables, userList: userList)
 }
-    func CallAPI(){
+   /* func CallAPI(){
         let nM = NetworkManager()
         guard let url = URL(string: "https://reqres.in/api/users") else{return}
        nM.getDataFromAPI(url: url, modelType: UserModel.self) { results in
@@ -59,7 +61,7 @@ override func viewDidLoad() {
         }
         
     }
-   
+   */
 /*
 // MARK: - Navigation
 

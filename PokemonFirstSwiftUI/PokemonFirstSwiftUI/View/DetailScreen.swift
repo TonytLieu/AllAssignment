@@ -8,11 +8,15 @@
 import SwiftUI
 
 struct DetailScreen: View {
+    var type:String
+    var lvl:String?
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Type: \(type)")
+        Text("Level:\(lvl ?? "")")
     }
 }
 
 #Preview {
-    DetailScreen()
+    DetailScreen(type: "",lvl:"")
 }

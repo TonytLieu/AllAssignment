@@ -1,26 +1,14 @@
 //
-//  FirstSwiftUIAppTests.swift
+//  LoginViewModelTest.swift
 //  FirstSwiftUIAppTests
 //
-//  Created by Tony Lieu on 11/6/23.
+//  Created by Tony Lieu on 11/9/23.
 //
-/*
- Test Cases
- Unit Test Cases
- UI Test Cases
- XCTest - framework
- 
- Given
- when
- then
- 
- */
 
 import XCTest
-@testable import FirstSwiftUIApp
-
-final class FirstSwiftUIAppTests: XCTestCase {
-
+@testable import FirstSwiftUIApp //need this to get to the file to test
+final class LoginViewModelTest: XCTestCase {
+//logingViewModel:LoginView!
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }

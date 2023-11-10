@@ -26,6 +26,8 @@
 		EB81361D2AFA8EE9007FC0F4 /* GemoriticReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB81361C2AFA8EE9007FC0F4 /* GemoriticReaderView.swift */; };
 		EB81361F2AFAA9CC007FC0F4 /* splitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB81361E2AFAA9CC007FC0F4 /* splitView.swift */; };
 		EB8136652AFBE15E007FC0F4 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8136642AFBE15E007FC0F4 /* UserInfo.swift */; };
+		EB8136B72AFD3210007FC0F4 /* LoginViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8136B62AFD3210007FC0F4 /* LoginViewModelTest.swift */; };
+		EB8136B92AFD4CBD007FC0F4 /* AuthManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8136B82AFD4CBD007FC0F4 /* AuthManger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,8 @@
 		EB81361C2AFA8EE9007FC0F4 /* GemoriticReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GemoriticReaderView.swift; sourceTree = "<group>"; };
 		EB81361E2AFAA9CC007FC0F4 /* splitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splitView.swift; sourceTree = "<group>"; };
 		EB8136642AFBE15E007FC0F4 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		EB8136B62AFD3210007FC0F4 /* LoginViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTest.swift; sourceTree = "<group>"; };
+		EB8136B82AFD4CBD007FC0F4 /* AuthManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,7 @@
 				EB1020D52AF92B28007DE688 /* ContentView.swift */,
 				EB1020D72AF92B2A007DE688 /* Assets.xcassets */,
 				EB1020D92AF92B2A007DE688 /* Preview Content */,
+				EB8136B82AFD4CBD007FC0F4 /* AuthManger.swift */,
 			);
 			path = FirstSwiftUIApp;
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				EB1020E42AF92B2A007DE688 /* FirstSwiftUIAppTests.swift */,
+				EB8136B62AFD3210007FC0F4 /* LoginViewModelTest.swift */,
 			);
 			path = FirstSwiftUIAppTests;
 			sourceTree = "<group>";
@@ -301,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB8136B92AFD4CBD007FC0F4 /* AuthManger.swift in Sources */,
 				EB1021022AF94599007DE688 /* DetailScreen.swift in Sources */,
 				EB8136192AFA7FBC007FC0F4 /* WebView.swift in Sources */,
 				EB81361B2AFA8BA7007FC0F4 /* TabBarViews.swift in Sources */,
@@ -322,6 +329,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB8136B72AFD3210007FC0F4 /* LoginViewModelTest.swift in Sources */,
 				EB1020E52AF92B2A007DE688 /* FirstSwiftUIAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

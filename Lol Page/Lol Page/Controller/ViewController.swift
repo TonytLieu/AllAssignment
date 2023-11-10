@@ -17,14 +17,15 @@ class ViewController: UIViewController {
     //var emailID:String = ""
     @IBOutlet weak var passwordinput: UITextField!
     //var passwordID:String = ""
+    private var loginV: LoginViewModel = LoginViewModel()
     override func viewDidLoad() {
         self.title = "Login TrashCan"
         super.viewDidLoad()
         // Do any additional setup after loading the view.
             // self.title = "Login Screen"
-    }
+    }//moved my login verifier to a viewModel
     @IBAction func LoginButton(_ sender: Any) {
-        if loginVal(emailID: emaillabel.text, passwordinput: passwordinput.text){
+        if loginV.loginVal(emailID: emaillabel.text, passwordinput: passwordinput.text){
             let storyBoard = UIStoryboard(name: "Main", bundle: nil)
                //this makes so i can pass data to the tableViewScence
                let listVC = storyBoard.instantiateViewController(withIdentifier: "LoginpageViewController") as! LoginpageViewController
@@ -38,23 +39,6 @@ class ViewController: UIViewController {
             self.present(alertViewController, animated: true)
         }
    
-    }
-    func loginVal(emailID:String?, passwordinput:String?)-> Bool{
-        var isValid = false
-        guard let emailID = emailID else{
-            return isValid
-        }
-        guard let passwordinput = passwordinput else{
-            return isValid
-        }
-        let isValidPassword = passwordinput.count >= 6
-        let emailRegex = "[A-Z0-9a-z.%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
-        //                  abc           @ gmail          .com
-        
-        let emailPredicate = NSPredicate(format: "SELF MATCHES %@", emailRegex)
-        let isEmailValid =  emailPredicate.evaluate(with: emailID)
-        isValid = isEmailValid && isValidPassword
-        return isValid
     }
     //how to pass data between views
    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

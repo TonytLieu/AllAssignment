@@ -3,27 +3,17 @@
 //  PokemonFirstSwiftUI
 //
 /*
- Screen 1- NavigationSplitView
+ 1.In existing a new Pokemon app in SwiftUI with MVVM architecture
+  Add Pull to refresh functionalityx
 
- 2. Taking any example of your choice show the usage of bellow Property Modifiers in your current project
+ 2.Convert existing UIKit project to MVVM of login and api call from MVC to MVVM architecture
+ MVC - Model View Controller
+ MVVM- Model View ViewModel
 
-  1.Statex
-  2.Bindingx
-  3.StateObject
-  4.ObsevedObjectx
-  5.ObservableObjectx
-  6.Envoirnmentx
-  7.EnvoirnmentObjectx
-  8.Appstoragex
-  9.Publishedx
-
- 3.Create a new Pokemon app in SwiftUI with MVVM architecture
- Use async await and show list of pokemnons on one screen
- And Details on another screen,
- API Endpoint-https://api.pokemontcg.io/v2/cards?page=1&pageSize=15
+ 3.Write test cases covering all scenario's for login validation function
 
 
-
+ 4. Also show use of Singleton design pattern
  */
 //  Created by Tony Lieu on 11/8/23.
 //
@@ -46,13 +36,13 @@ struct ContentView: View {
                     }
                 }
                 NavigationLink{
-                    PokemonTableView()
+                    PokemonListView()
                     }label: {
                         Image("pokeball")
                      }
                 HStack{
                     NavigationLink("DetailView"){
-                        DetailScreen()
+                        DetailScreen(type: "", lvl: "")
                     }
                     .buttonStyle(.bordered)
                     .buttonBorderShape(.capsule)

@@ -15,7 +15,7 @@ struct splitViewAnime: View {
                     Text(show)
                 }
             }detail: {//right side view
-                    DetailScreen()
+                
             }
         }
     }

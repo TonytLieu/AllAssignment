@@ -9,6 +9,7 @@ import SwiftUI
 
 struct detailScreen2: View {
         @Binding var changeTitle:String
+        
         @AppStorage("userNickName") var nickName = "uiKit"//userdefault
         var body: some View {
             Text(changeTitle)

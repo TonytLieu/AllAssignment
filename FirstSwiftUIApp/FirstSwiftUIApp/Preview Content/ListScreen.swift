@@ -28,7 +28,7 @@ struct ListScreen: View {
                 Section("2nd Section"){
                     ForEach(anime2, id:\.self){show in
                         NavigationLink{
-                          //  DetailScreen()
+                            //DetailScreen(changeTitle:)
                         }
                     label:
                         {ListCell(show: show)

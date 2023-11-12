@@ -7,13 +7,14 @@
 
 import Foundation
 //pokemon model
-// MARK: - Temperatures
 struct PokemonData: Codable {
     let data: [Pokemon]
 }
 
-struct Pokemon: Codable, Identifiable {
+struct Pokemon: Codable, Identifiable{
     let id, name: String
+    //incorrect Parsing Error
+   // let id, namesdkmskfmeks: String
     let supertype: String?
     let subtypes: [String]?
     let hp: String?

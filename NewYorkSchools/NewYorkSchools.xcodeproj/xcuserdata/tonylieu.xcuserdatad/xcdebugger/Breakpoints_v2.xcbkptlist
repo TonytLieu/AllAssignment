@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2C04C732-6A4B-4A6C-B52D-F293F6E24A59"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92CB51F3-CF5A-4E22-BB69-BFA88F85D7DC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewYorkSchools/Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "getDataApi(url:modelType:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A86D1F3-478C-4589-BE9E-5D97DBFE532E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewYorkSchools/View/NySchoolList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "1A86D1F3-478C-4589-BE9E-5D97DBFE532E - 47b6caab5daa05b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Button&lt;SwiftUI.Text&gt;, SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;NewYorkSchools.SchoolModel&gt;, Swift.String, SwiftUI.NavigationStack&lt;SwiftUI.NavigationPath, SwiftUI.NavigationLink&lt;NewYorkSchools.schoolCell, SwiftUI.EmptyView&gt;&gt;&gt;&gt;)&gt; in NewYorkSchools.NySchoolList.body.getter : some"
+                  moduleName = "NewYorkSchools"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/NewYorkSchools/NewYorkSchools/View/NySchoolList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "616">
+               </Location>
+               <Location
+                  uuid = "1A86D1F3-478C-4589-BE9E-5D97DBFE532E - d6aa9c216b64683a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (NewYorkSchools.SchoolModel) -&gt; SwiftUI.NavigationStack&lt;SwiftUI.NavigationPath, SwiftUI.NavigationLink&lt;NewYorkSchools.schoolCell, SwiftUI.EmptyView&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Button&lt;SwiftUI.Text&gt;, SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;NewYorkSchools.SchoolModel&gt;, Swift.String, SwiftUI.NavigationStack&lt;SwiftUI.NavigationPath, SwiftUI.NavigationLink&lt;NewYorkSchools.schoolCell, SwiftUI.EmptyView&gt;&gt;&gt;&gt;)&gt; in NewYorkSchools.NySchoolList.body.getter : some"
+                  moduleName = "NewYorkSchools"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/NewYorkSchools/NewYorkSchools/View/NySchoolList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "1A86D1F3-478C-4589-BE9E-5D97DBFE532E - a2989c8bad2be0e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Button&lt;SwiftUI.Text&gt;, SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;NewYorkSchools.SchoolModel&gt;, Swift.String, SwiftUI.NavigationStack&lt;SwiftUI.NavigationPath, SwiftUI.NavigationLink&lt;NewYorkSchools.schoolCell, NewYorkSchools.SchoolDetails&gt;&gt;&gt;&gt;)&gt; in NewYorkSchools.NySchoolList.body.getter : some"
+                  moduleName = "NewYorkSchools"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/NewYorkSchools/NewYorkSchools/View/NySchoolList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "616">
+               </Location>
+               <Location
+                  uuid = "1A86D1F3-478C-4589-BE9E-5D97DBFE532E - 99c859eacd6600bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (NewYorkSchools.SchoolModel) -&gt; SwiftUI.NavigationStack&lt;SwiftUI.NavigationPath, SwiftUI.NavigationLink&lt;NewYorkSchools.schoolCell, NewYorkSchools.SchoolDetails&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Button&lt;SwiftUI.Text&gt;, SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;NewYorkSchools.SchoolModel&gt;, Swift.String, SwiftUI.NavigationStack&lt;SwiftUI.NavigationPath, SwiftUI.NavigationLink&lt;NewYorkSchools.schoolCell, NewYorkSchools.SchoolDetails&gt;&gt;&gt;&gt;)&gt; in NewYorkSchools.NySchoolList.body.getter : some"
+                  moduleName = "NewYorkSchools"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/NewYorkSchools/NewYorkSchools/View/NySchoolList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "1A86D1F3-478C-4589-BE9E-5D97DBFE532E - d72091eb393c403a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Button&lt;SwiftUI.Text&gt;, SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;NewYorkSchools.SchoolModel&gt;, Foundation.UUID, SwiftUI.NavigationStack&lt;SwiftUI.NavigationPath, SwiftUI.NavigationLink&lt;NewYorkSchools.schoolCell, NewYorkSchools.SchoolDetails&gt;&gt;&gt;&gt;)&gt; in NewYorkSchools.NySchoolList.body.getter : some"
+                  moduleName = "NewYorkSchools"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/NewYorkSchools/NewYorkSchools/View/NySchoolList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "616">
+               </Location>
+               <Location
+                  uuid = "1A86D1F3-478C-4589-BE9E-5D97DBFE532E - c3a9c2d9a84f2187"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (NewYorkSchools.SchoolModel) -&gt; SwiftUI.NavigationStack&lt;SwiftUI.NavigationPath, SwiftUI.NavigationLink&lt;NewYorkSchools.schoolCell, NewYorkSchools.SchoolDetails&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Button&lt;SwiftUI.Text&gt;, SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;NewYorkSchools.SchoolModel&gt;, Foundation.UUID, SwiftUI.NavigationStack&lt;SwiftUI.NavigationPath, SwiftUI.NavigationLink&lt;NewYorkSchools.schoolCell, NewYorkSchools.SchoolDetails&gt;&gt;&gt;&gt;)&gt; in NewYorkSchools.NySchoolList.body.getter : some"
+                  moduleName = "NewYorkSchools"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/NewYorkSchools/NewYorkSchools/View/NySchoolList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

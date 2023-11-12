@@ -205,6 +205,177 @@
                   endingLineNumber = "44"
                   offsetFromSymbolStart = "288">
                </Location>
+               <Location
+                  uuid = "E6603571-B8E3-44A4-B057-ECF2CE821C76 - 1443b88c9bbca264"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI._ConditionalContent&lt;SwiftUI.Text, SwiftUI.HStack&lt;SwiftUI.Text&gt;&gt;, SwiftUI.NavigationLink&lt;SwiftUI.Image, PokemonFirstSwiftUI.PokemonListView&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.buttonBorderShape(SwiftUI.ButtonBorderShape) -&gt; some&gt;&gt;.0, SwiftUI.NavigationLink&lt;SwiftUI.Text, PokemonFirstSwiftUI.detailScreen2&gt;)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI._ConditionalContent&lt;SwiftUI.Text, SwiftUI.HStack&lt;SwiftUI.Text&gt;&gt;, SwiftUI.NavigationLink&lt;SwiftUI.Image, PokemonFirstSwiftUI.PokemonListView&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.buttonBorderShape(SwiftUI.ButtonBorderShape) -&gt; some&gt;&gt;.0, SwiftUI.NavigationLink&lt;SwiftUI.Text, PokemonFirstSwiftUI.detailScreen2&gt;)&gt;&gt;)&gt;&gt; in PokemonFirstSwiftUI.ContentView.body.getter : some"
+                  moduleName = "PokemonFirstSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/PokemonFirstSwiftUI/PokemonFirstSwiftUI/View/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "2192">
+               </Location>
+               <Location
+                  uuid = "E6603571-B8E3-44A4-B057-ECF2CE821C76 - d43f8e63bccdf567"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.Text in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI._ConditionalContent&lt;SwiftUI.Text, SwiftUI.HStack&lt;SwiftUI.Text&gt;&gt;, SwiftUI.NavigationLink&lt;SwiftUI.Image, PokemonFirstSwiftUI.PokemonListView&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.buttonBorderShape(SwiftUI.ButtonBorderShape) -&gt; some&gt;&gt;.0, SwiftUI.NavigationLink&lt;SwiftUI.Text, PokemonFirstSwiftUI.detailScreen2&gt;)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI._ConditionalContent&lt;SwiftUI.Text, SwiftUI.HStack&lt;SwiftUI.Text&gt;&gt;, SwiftUI.NavigationLink&lt;SwiftUI.Image, PokemonFirstSwiftUI.PokemonListView&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.buttonBorderShape(SwiftUI.ButtonBorderShape) -&gt; some&gt;&gt;.0, SwiftUI.NavigationLink&lt;SwiftUI.Text, PokemonFirstSwiftUI.detailScreen2&gt;)&gt;&gt;)&gt;&gt; in PokemonFirstSwiftUI.ContentView.body.getter : some"
+                  moduleName = "PokemonFirstSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/PokemonFirstSwiftUI/PokemonFirstSwiftUI/View/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "288">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ADD56FB4-608F-4876-B51D-42A43232F9CC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PokemonFirstSwiftUI/ViewModel/PokemonListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
+            landmarkName = "PokemonListViewModel"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "ADD56FB4-608F-4876-B51D-42A43232F9CC - 73e83126f21794a0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PokemonFirstSwiftUI.PokemonListViewModel.deinit"
+                  moduleName = "PokemonFirstSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/PokemonFirstSwiftUI/PokemonFirstSwiftUI/ViewModel/PokemonListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "ADD56FB4-608F-4876-B51D-42A43232F9CC - bb35b8c44f815c9d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PokemonFirstSwiftUI.PokemonListViewModel.__deallocating_deinit"
+                  moduleName = "PokemonFirstSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/PokemonFirstSwiftUI/PokemonFirstSwiftUI/ViewModel/PokemonListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "ADD56FB4-608F-4876-B51D-42A43232F9CC - 2f8ac0daddbfa3e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PokemonFirstSwiftUI.PokemonListViewModel.__allocating_init() -&gt; PokemonFirstSwiftUI.PokemonListViewModel"
+                  moduleName = "PokemonFirstSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/PokemonFirstSwiftUI/PokemonFirstSwiftUI/ViewModel/PokemonListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "ADD56FB4-608F-4876-B51D-42A43232F9CC - 3b817653eb407e25"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PokemonFirstSwiftUI.PokemonListViewModel.init() -&gt; PokemonFirstSwiftUI.PokemonListViewModel"
+                  moduleName = "PokemonFirstSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/PokemonFirstSwiftUI/PokemonFirstSwiftUI/ViewModel/PokemonListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9387FD59-EF3E-4654-B5F2-58ED27D168A1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PokemonFirstSwiftUITests/PokemonViewModelTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "testGetPokemonList_whenWeAreExpectingEmptyURL()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9387FD59-EF3E-4654-B5F2-58ED27D168A1 - 90ea09249e17feb1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PokemonFirstSwiftUITests.PokemonViewModelTest.testGetPokemonList_whenWeAreExpectingEmptyList() async throws -&gt; ()"
+                  moduleName = "PokemonFirstSwiftUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/PokemonFirstSwiftUI/PokemonFirstSwiftUITests/PokemonViewModelTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "9387FD59-EF3E-4654-B5F2-58ED27D168A1 - cae12962b5ebaeae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PokemonFirstSwiftUITests.PokemonViewModelTest.testGetPokemonList_whenWeAreExpectingEmptyList() async throws -&gt; ()"
+                  moduleName = "PokemonFirstSwiftUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/PokemonFirstSwiftUI/PokemonFirstSwiftUITests/PokemonViewModelTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "9387FD59-EF3E-4654-B5F2-58ED27D168A1 - 35e293c613c562ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for PokemonFirstSwiftUITests.PokemonViewModelTest.testGetPokemonList_whenWeAreExpectingEmptyList() async throws -&gt; ()"
+                  moduleName = "PokemonFirstSwiftUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/PokemonFirstSwiftUI/PokemonFirstSwiftUITests/PokemonViewModelTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "40">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>

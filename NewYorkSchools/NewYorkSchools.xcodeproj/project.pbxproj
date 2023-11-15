@@ -19,6 +19,13 @@
 		EB81373B2AFEB55C007FC0F4 /* ApiEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB81373A2AFEB55C007FC0F4 /* ApiEndpoint.swift */; };
 		EB81373D2AFEB610007FC0F4 /* SchoolDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB81373C2AFEB610007FC0F4 /* SchoolDetails.swift */; };
 		EB81373F2AFEBE93007FC0F4 /* schoolCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB81373E2AFEBE92007FC0F4 /* schoolCell.swift */; };
+		EB81378C2B02C7E7007FC0F4 /* SATScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB81378B2B02C7E7007FC0F4 /* SATScore.swift */; };
+		EB81378E2B03AB13007FC0F4 /* MathScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB81378D2B03AB13007FC0F4 /* MathScore.swift */; };
+		EB8137D12B03D61C007FC0F4 /* Scores.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8137D02B03D61C007FC0F4 /* Scores.swift */; };
+		EB8137D52B03F31A007FC0F4 /* CTRScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8137D42B03F31A007FC0F4 /* CTRScore.swift */; };
+		EB8137D72B03F327007FC0F4 /* WritingScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8137D62B03F327007FC0F4 /* WritingScore.swift */; };
+		EB8137D92B03FF78007FC0F4 /* NoScoreAvaible.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8137D82B03FF78007FC0F4 /* NoScoreAvaible.swift */; };
+		EB8137DB2B04040A007FC0F4 /* CheckSchoolSAT.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8137DA2B04040A007FC0F4 /* CheckSchoolSAT.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +61,13 @@
 		EB81373A2AFEB55C007FC0F4 /* ApiEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndpoint.swift; sourceTree = "<group>"; };
 		EB81373C2AFEB610007FC0F4 /* SchoolDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetails.swift; sourceTree = "<group>"; };
 		EB81373E2AFEBE92007FC0F4 /* schoolCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = schoolCell.swift; sourceTree = "<group>"; };
+		EB81378B2B02C7E7007FC0F4 /* SATScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATScore.swift; sourceTree = "<group>"; };
+		EB81378D2B03AB13007FC0F4 /* MathScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathScore.swift; sourceTree = "<group>"; };
+		EB8137D02B03D61C007FC0F4 /* Scores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scores.swift; sourceTree = "<group>"; };
+		EB8137D42B03F31A007FC0F4 /* CTRScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTRScore.swift; sourceTree = "<group>"; };
+		EB8137D62B03F327007FC0F4 /* WritingScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingScore.swift; sourceTree = "<group>"; };
+		EB8137D82B03FF78007FC0F4 /* NoScoreAvaible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoScoreAvaible.swift; sourceTree = "<group>"; };
+		EB8137DA2B04040A007FC0F4 /* CheckSchoolSAT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckSchoolSAT.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +168,11 @@
 				EB81370B2AFEAF50007FC0F4 /* NySchoolList.swift */,
 				EB81373C2AFEB610007FC0F4 /* SchoolDetails.swift */,
 				EB81373E2AFEBE92007FC0F4 /* schoolCell.swift */,
+				EB81378B2B02C7E7007FC0F4 /* SATScore.swift */,
+				EB81378D2B03AB13007FC0F4 /* MathScore.swift */,
+				EB8137D42B03F31A007FC0F4 /* CTRScore.swift */,
+				EB8137D62B03F327007FC0F4 /* WritingScore.swift */,
+				EB8137D82B03FF78007FC0F4 /* NoScoreAvaible.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -162,6 +181,8 @@
 			isa = PBXGroup;
 			children = (
 				EB8137382AFEB4DC007FC0F4 /* SchoolModel.swift */,
+				EB8137D02B03D61C007FC0F4 /* Scores.swift */,
+				EB8137DA2B04040A007FC0F4 /* CheckSchoolSAT.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -297,12 +318,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB81373F2AFEBE93007FC0F4 /* schoolCell.swift in Sources */,
+				EB8137D92B03FF78007FC0F4 /* NoScoreAvaible.swift in Sources */,
+				EB8137D72B03F327007FC0F4 /* WritingScore.swift in Sources */,
 				EB81373D2AFEB610007FC0F4 /* SchoolDetails.swift in Sources */,
+				EB8137D12B03D61C007FC0F4 /* Scores.swift in Sources */,
 				EB8137342AFEB0F7007FC0F4 /* NetworkManager.swift in Sources */,
+				EB8137D52B03F31A007FC0F4 /* CTRScore.swift in Sources */,
 				EB8137392AFEB4DC007FC0F4 /* SchoolModel.swift in Sources */,
 				EB81370C2AFEAF50007FC0F4 /* NySchoolList.swift in Sources */,
+				EB81378C2B02C7E7007FC0F4 /* SATScore.swift in Sources */,
+				EB81378E2B03AB13007FC0F4 /* MathScore.swift in Sources */,
 				EB81370A2AFEAF50007FC0F4 /* NewYorkSchoolsApp.swift in Sources */,
 				EB81373B2AFEB55C007FC0F4 /* ApiEndpoint.swift in Sources */,
+				EB8137DB2B04040A007FC0F4 /* CheckSchoolSAT.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

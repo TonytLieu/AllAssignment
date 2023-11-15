@@ -8,13 +8,14 @@
 import SwiftUI
 
 struct SchoolModel: Codable, Identifiable{
-    let id = UUID()
-    let schoolName, overviewParagraph, location, phoneNumber: String
-    let faxNumber, schoolEmail, requirement11, requirement21: String
+    let id :String
+    let school_name, overviewParagraph, location, phoneNumber: String?
+    let faxNumber, schoolEmail, requirement11, requirement21: String?
+
     
     enum CodingKeys: String, CodingKey {
         case id = "dbn"
-        case schoolName = "school_name"
+        case school_name
         case overviewParagraph = "overview_paragraph"
         case location
         case phoneNumber = "phone_number"

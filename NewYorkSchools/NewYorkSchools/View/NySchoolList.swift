@@ -10,35 +10,41 @@ import SwiftUI
 struct NySchoolList: View {
     var networkManager:NetworkManager = NetworkManager()
     let endpoint = ApiEndpoints.shared
+    @State private var searchText = ""
     @State  var schoolList = [SchoolModel]()
     var body: some View {
         VStack{
-            Image("newYork")
-            Button("Test"){
-            }
-            List(schoolList){school in
-                NavigationStack{
+            NavigationStack{
+                Image("newYork")
+                    .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+                Text("\(searchText)")
+                    .navigationTitle("School")
+                    .searchable(text: $searchText)
+                List(schoolList){school in
                     NavigationLink{//wheere the navi will take the codeline
-                        SchoolDetails(schoolName: school.schoolName, schoolLocation: school.location, requirment1: school.requirement11, requirment2: school.requirement21)
+                        SchoolDetails(schoolID: school.id, schoolName: school.school_name ?? "", schoolLocation: school.location ?? "")
                     }label: {
-                        schoolCell(schoolName: school.schoolName)
-                    }
+                        schoolCell(schoolName: school.school_name ?? "")
+                    }.foregroundColor(.blue)
+                        .hoverEffect(.highlight)
+                        .listRowInsets(.init(top: 10, leading: 10, bottom: 10, trailing: 10))
                 }
             }
-        }.onAppear(){
-                Task{
-                    do{
-                        let schoolList = try await networkManager.getDataApi(url: URL(string: endpoint.schoolListEndPoint)!, modelType: SchoolModel.self)
-                        DispatchQueue.main.async {
-                            self.schoolList.append(schoolList)
-                        }
-                    }catch {
-                        print(error.localizedDescription)
+        }.background(.white)
+        .onAppear(){
+            Task{
+                do{
+                    let schoolList = try await networkManager.getDataApi(url: URL(string: endpoint.schoolListEndPoint)!, modelType: [SchoolModel].self)
+                    DispatchQueue.main.async {
+                        self.schoolList = schoolList
                     }
+                }catch {
+                    print(error.localizedDescription)
                 }
             }
         }
     }
+}
 
 
 #Preview {

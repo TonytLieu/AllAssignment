@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Alamofire
 
 struct NySchoolList: View {
     var networkManager:NetworkManager = NetworkManager()
@@ -33,17 +34,38 @@ struct NySchoolList: View {
             }
         }.background(.white)
         .onAppear(){
-            Task{
-                do{
-                   // let schoolList = try await
-                    let schoolList = try await networkManager.getDataApi(url: URL(string: endpoint.schoolListEndPoint)!, modelType: [SchoolModel].self)
-                    DispatchQueue.main.async {
-                        self.schoolList = schoolList
+            //let schoolList = APIFetchHandler.sharedInstance.schoolArray
+            //print(APIFetchHandler.sharedInstance.schoolArray
+                let url = "https://data.cityofnewyork.us/resource/s3k6-pzi2.json";
+                AF.request(url, method: .get, parameters: nil, encoding: URLEncoding.default, headers: nil, interceptor: nil)
+                    .response{ resp in
+                        switch resp.result{
+                        case .success(let data):
+                            do{
+                                let jsonData = try JSONDecoder().decode([SchoolModel].self, from: data!)
+                                DispatchQueue.main.async {
+                                               self.schoolList = jsonData
+                                           }
+
+                            } catch {
+                                print(error.localizedDescription)
+                            }
+                        case .failure(let error):
+                            print(error.localizedDescription)
+                        }
                     }
-                }catch {
-                    print(error.localizedDescription)
-                }
-            }
+           
+//            Task{
+            
+//                do{
+//                   // let schoolList = try await networkManager.getDataApi(url: URL(string: endpoint.schoolListEndPoint)!, modelType: [SchoolModel].self)
+//                    DispatchQueue.main.async {
+//                        self.schoolList = schoolList
+//                    }
+//                }catch {
+//                    print(error.localizedDescription)
+//                }
+//            }
         }
     }
 }

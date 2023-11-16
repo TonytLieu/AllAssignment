@@ -23,10 +23,10 @@
             </objects>
             <point key="canvasLocation" x="140" y="4"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller2-->
         <scene sceneID="2Jq-ms-FII">
             <objects>
-                <viewController id="xHz-mj-VZS" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xHz-mj-VZS" customClass="ViewController2" customModule="SSD" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HrG-ZO-zJO">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

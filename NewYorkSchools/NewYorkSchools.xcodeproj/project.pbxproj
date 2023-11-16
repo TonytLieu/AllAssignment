@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07F04A032AFF0BFFE16B8D47 /* Pods_NewYorkSchoolsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5BD1DCA78C49B99E8404E5 /* Pods_NewYorkSchoolsTests.framework */; };
+		1B53A1A7BBEF3862C2303BE8 /* Pods_NewYorkSchools_NewYorkSchoolsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8646AB2CE513F06024101B /* Pods_NewYorkSchools_NewYorkSchoolsUITests.framework */; };
+		A82DFC86A5638C588AC125DC /* Pods_NewYorkSchools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A866D9429AC498C938FE3F /* Pods_NewYorkSchools.framework */; };
 		EB81370A2AFEAF50007FC0F4 /* NewYorkSchoolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8137092AFEAF50007FC0F4 /* NewYorkSchoolsApp.swift */; };
 		EB81370C2AFEAF50007FC0F4 /* NySchoolList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB81370B2AFEAF50007FC0F4 /* NySchoolList.swift */; };
 		EB81370E2AFEAF5A007FC0F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB81370D2AFEAF5A007FC0F4 /* Assets.xcassets */; };
@@ -26,6 +29,7 @@
 		EB8137D72B03F327007FC0F4 /* WritingScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8137D62B03F327007FC0F4 /* WritingScore.swift */; };
 		EB8137D92B03FF78007FC0F4 /* NoScoreAvaible.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8137D82B03FF78007FC0F4 /* NoScoreAvaible.swift */; };
 		EB8137DB2B04040A007FC0F4 /* CheckSchoolSAT.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8137DA2B04040A007FC0F4 /* CheckSchoolSAT.swift */; };
+		EBF202EA2B0668DE00ECC28E /* FireAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF202E92B0668DE00ECC28E /* FireAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B36E49A0E92ECF0ACA91251 /* Pods-NewYorkSchools-NewYorkSchoolsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewYorkSchools-NewYorkSchoolsUITests.release.xcconfig"; path = "Target Support Files/Pods-NewYorkSchools-NewYorkSchoolsUITests/Pods-NewYorkSchools-NewYorkSchoolsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		30B12F72B315CFEFD3A64105 /* Pods-NewYorkSchools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewYorkSchools.debug.xcconfig"; path = "Target Support Files/Pods-NewYorkSchools/Pods-NewYorkSchools.debug.xcconfig"; sourceTree = "<group>"; };
+		4074D01EFE85410E69E574DE /* Pods-NewYorkSchools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewYorkSchools.release.xcconfig"; path = "Target Support Files/Pods-NewYorkSchools/Pods-NewYorkSchools.release.xcconfig"; sourceTree = "<group>"; };
+		6453304A33C2FE781254A6E6 /* Pods-NewYorkSchools-NewYorkSchoolsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewYorkSchools-NewYorkSchoolsUITests.debug.xcconfig"; path = "Target Support Files/Pods-NewYorkSchools-NewYorkSchoolsUITests/Pods-NewYorkSchools-NewYorkSchoolsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D8646AB2CE513F06024101B /* Pods_NewYorkSchools_NewYorkSchoolsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewYorkSchools_NewYorkSchoolsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5BD1DCA78C49B99E8404E5 /* Pods_NewYorkSchoolsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewYorkSchoolsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C127F89CCD5738CA31AFE05B /* Pods-NewYorkSchoolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewYorkSchoolsTests.release.xcconfig"; path = "Target Support Files/Pods-NewYorkSchoolsTests/Pods-NewYorkSchoolsTests.release.xcconfig"; sourceTree = "<group>"; };
+		C7433DF3339DDB46F4B9F05C /* Pods-NewYorkSchoolsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewYorkSchoolsTests.debug.xcconfig"; path = "Target Support Files/Pods-NewYorkSchoolsTests/Pods-NewYorkSchoolsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2A866D9429AC498C938FE3F /* Pods_NewYorkSchools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewYorkSchools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8137062AFEAF50007FC0F4 /* NewYorkSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewYorkSchools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8137092AFEAF50007FC0F4 /* NewYorkSchoolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYorkSchoolsApp.swift; sourceTree = "<group>"; };
 		EB81370B2AFEAF50007FC0F4 /* NySchoolList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NySchoolList.swift; sourceTree = "<group>"; };
@@ -68,6 +81,7 @@
 		EB8137D62B03F327007FC0F4 /* WritingScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingScore.swift; sourceTree = "<group>"; };
 		EB8137D82B03FF78007FC0F4 /* NoScoreAvaible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoScoreAvaible.swift; sourceTree = "<group>"; };
 		EB8137DA2B04040A007FC0F4 /* CheckSchoolSAT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckSchoolSAT.swift; sourceTree = "<group>"; };
+		EBF202E92B0668DE00ECC28E /* FireAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A82DFC86A5638C588AC125DC /* Pods_NewYorkSchools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07F04A032AFF0BFFE16B8D47 /* Pods_NewYorkSchoolsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,12 +105,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B53A1A7BBEF3862C2303BE8 /* Pods_NewYorkSchools_NewYorkSchoolsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55CF006302BBD26DF2BE6C8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2A866D9429AC498C938FE3F /* Pods_NewYorkSchools.framework */,
+				9D8646AB2CE513F06024101B /* Pods_NewYorkSchools_NewYorkSchoolsUITests.framework */,
+				BA5BD1DCA78C49B99E8404E5 /* Pods_NewYorkSchoolsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE45B7B07F060C8406EDF218 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30B12F72B315CFEFD3A64105 /* Pods-NewYorkSchools.debug.xcconfig */,
+				4074D01EFE85410E69E574DE /* Pods-NewYorkSchools.release.xcconfig */,
+				6453304A33C2FE781254A6E6 /* Pods-NewYorkSchools-NewYorkSchoolsUITests.debug.xcconfig */,
+				2B36E49A0E92ECF0ACA91251 /* Pods-NewYorkSchools-NewYorkSchoolsUITests.release.xcconfig */,
+				C7433DF3339DDB46F4B9F05C /* Pods-NewYorkSchoolsTests.debug.xcconfig */,
+				C127F89CCD5738CA31AFE05B /* Pods-NewYorkSchoolsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EB8136FD2AFEAF50007FC0F4 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +142,8 @@
 				EB8137192AFEAF5A007FC0F4 /* NewYorkSchoolsTests */,
 				EB8137232AFEAF5A007FC0F4 /* NewYorkSchoolsUITests */,
 				EB8137072AFEAF50007FC0F4 /* Products */,
+				DE45B7B07F060C8406EDF218 /* Pods */,
+				55CF006302BBD26DF2BE6C8D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,6 +200,7 @@
 			children = (
 				EB8137332AFEB0F7007FC0F4 /* NetworkManager.swift */,
 				EB81373A2AFEB55C007FC0F4 /* ApiEndpoint.swift */,
+				EBF202E92B0668DE00ECC28E /* FireAPI.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -194,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB81372A2AFEAF5A007FC0F4 /* Build configuration list for PBXNativeTarget "NewYorkSchools" */;
 			buildPhases = (
+				7BDF8C828ADC1908C9172570 /* [CP] Check Pods Manifest.lock */,
 				EB8137022AFEAF50007FC0F4 /* Sources */,
 				EB8137032AFEAF50007FC0F4 /* Frameworks */,
 				EB8137042AFEAF50007FC0F4 /* Resources */,
+				A9884476370365D68ABF8E7C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -211,6 +256,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB81372D2AFEAF5A007FC0F4 /* Build configuration list for PBXNativeTarget "NewYorkSchoolsTests" */;
 			buildPhases = (
+				C5E3381E031AEE826D973CDB /* [CP] Check Pods Manifest.lock */,
 				EB8137122AFEAF5A007FC0F4 /* Sources */,
 				EB8137132AFEAF5A007FC0F4 /* Frameworks */,
 				EB8137142AFEAF5A007FC0F4 /* Resources */,
@@ -229,9 +275,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB8137302AFEAF5A007FC0F4 /* Build configuration list for PBXNativeTarget "NewYorkSchoolsUITests" */;
 			buildPhases = (
+				DE8E8B14767CAD575600B37C /* [CP] Check Pods Manifest.lock */,
 				EB81371C2AFEAF5A007FC0F4 /* Sources */,
 				EB81371D2AFEAF5A007FC0F4 /* Frameworks */,
 				EB81371E2AFEAF5A007FC0F4 /* Resources */,
+				CC2DB427876307B9EAF41F79 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -312,6 +360,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7BDF8C828ADC1908C9172570 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewYorkSchools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9884476370365D68ABF8E7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewYorkSchools/Pods-NewYorkSchools-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewYorkSchools/Pods-NewYorkSchools-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewYorkSchools/Pods-NewYorkSchools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5E3381E031AEE826D973CDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewYorkSchoolsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC2DB427876307B9EAF41F79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewYorkSchools-NewYorkSchoolsUITests/Pods-NewYorkSchools-NewYorkSchoolsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewYorkSchools-NewYorkSchoolsUITests/Pods-NewYorkSchools-NewYorkSchoolsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewYorkSchools-NewYorkSchoolsUITests/Pods-NewYorkSchools-NewYorkSchoolsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE8E8B14767CAD575600B37C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewYorkSchools-NewYorkSchoolsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EB8137022AFEAF50007FC0F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -320,6 +471,7 @@
 				EB81373F2AFEBE93007FC0F4 /* schoolCell.swift in Sources */,
 				EB8137D92B03FF78007FC0F4 /* NoScoreAvaible.swift in Sources */,
 				EB8137D72B03F327007FC0F4 /* WritingScore.swift in Sources */,
+				EBF202EA2B0668DE00ECC28E /* FireAPI.swift in Sources */,
 				EB81373D2AFEB610007FC0F4 /* SchoolDetails.swift in Sources */,
 				EB8137D12B03D61C007FC0F4 /* Scores.swift in Sources */,
 				EB8137342AFEB0F7007FC0F4 /* NetworkManager.swift in Sources */,
@@ -404,7 +556,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -467,7 +619,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -488,6 +640,7 @@
 		};
 		EB81372B2AFEAF5A007FC0F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30B12F72B315CFEFD3A64105 /* Pods-NewYorkSchools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -516,6 +669,7 @@
 		};
 		EB81372C2AFEAF5A007FC0F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4074D01EFE85410E69E574DE /* Pods-NewYorkSchools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -544,6 +698,7 @@
 		};
 		EB81372E2AFEAF5A007FC0F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7433DF3339DDB46F4B9F05C /* Pods-NewYorkSchoolsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -563,6 +718,7 @@
 		};
 		EB81372F2AFEAF5A007FC0F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C127F89CCD5738CA31AFE05B /* Pods-NewYorkSchoolsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -582,6 +738,7 @@
 		};
 		EB8137312AFEAF5A007FC0F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6453304A33C2FE781254A6E6 /* Pods-NewYorkSchools-NewYorkSchoolsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -599,6 +756,7 @@
 		};
 		EB8137322AFEAF5A007FC0F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B36E49A0E92ECF0ACA91251 /* Pods-NewYorkSchools-NewYorkSchoolsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

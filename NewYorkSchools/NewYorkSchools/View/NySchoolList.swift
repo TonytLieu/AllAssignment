@@ -10,6 +10,7 @@ import SwiftUI
 struct NySchoolList: View {
     var networkManager:NetworkManager = NetworkManager()
     let endpoint = ApiEndpoints.shared
+    var nfire:APIFetchHandler = APIFetchHandler()
     @State private var searchText = ""
     @State  var schoolList = [SchoolModel]()
     var body: some View {
@@ -34,6 +35,7 @@ struct NySchoolList: View {
         .onAppear(){
             Task{
                 do{
+                   // let schoolList = try await
                     let schoolList = try await networkManager.getDataApi(url: URL(string: endpoint.schoolListEndPoint)!, modelType: [SchoolModel].self)
                     DispatchQueue.main.async {
                         self.schoolList = schoolList

@@ -18,9 +18,18 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let scene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: scene)
+        let userDefault = UserDefaults.standard
         let sb = UIStoryboard(name:"Main", bundle: nil)
-        
-        sb.instantiateViewController(withIdentifier: makeKeyAndVisible())
+        if let isFirstTimeLaunch = userDefault.object(forKey: "isFirstTimeLanch") as? Bool{
+            let vc = sb.instantiateViewController(withIdentifier: "ViewController2")
+                              window?.rootViewController = vc
+                              window?.makeKeyAndVisible()
+        }else{
+           
+            userDefault.setValue(true, forKey: "isFirstTimeLaunch")
+        }
+     
+       
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

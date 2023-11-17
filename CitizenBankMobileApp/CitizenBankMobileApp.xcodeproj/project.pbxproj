@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBF202F82B07012B00ECC28E /* CitizenBankMobileAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF202F72B07012B00ECC28E /* CitizenBankMobileAppApp.swift */; };
+		EBF202FA2B07012B00ECC28E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF202F92B07012B00ECC28E /* ContentView.swift */; };
+		EBF202FC2B07012D00ECC28E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF202FB2B07012D00ECC28E /* Assets.xcassets */; };
+		EBF202FF2B07012D00ECC28E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF202FE2B07012D00ECC28E /* Preview Assets.xcassets */; };
+		EBF203012B07012D00ECC28E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF203002B07012D00ECC28E /* Persistence.swift */; };
+		EBF203042B07012D00ECC28E /* CitizenBankMobileApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBF203022B07012D00ECC28E /* CitizenBankMobileApp.xcdatamodeld */; };
+		EBF2030E2B07012D00ECC28E /* CitizenBankMobileAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2030D2B07012D00ECC28E /* CitizenBankMobileAppTests.swift */; };
+		EBF203182B07012D00ECC28E /* CitizenBankMobileAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF203172B07012D00ECC28E /* CitizenBankMobileAppUITests.swift */; };
+		EBF2031A2B07012D00ECC28E /* CitizenBankMobileAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF203192B07012D00ECC28E /* CitizenBankMobileAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBF2030A2B07012D00ECC28E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF202EC2B07012B00ECC28E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF202F32B07012B00ECC28E;
+			remoteInfo = CitizenBankMobileApp;
+		};
+		EBF203142B07012D00ECC28E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF202EC2B07012B00ECC28E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF202F32B07012B00ECC28E;
+			remoteInfo = CitizenBankMobileApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBF202F42B07012B00ECC28E /* CitizenBankMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitizenBankMobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF202F72B07012B00ECC28E /* CitizenBankMobileAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitizenBankMobileAppApp.swift; sourceTree = "<group>"; };
+		EBF202F92B07012B00ECC28E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EBF202FB2B07012D00ECC28E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBF202FE2B07012D00ECC28E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EBF203002B07012D00ECC28E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		EBF203032B07012D00ECC28E /* CitizenBankMobileApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CitizenBankMobileApp.xcdatamodel; sourceTree = "<group>"; };
+		EBF203092B07012D00ECC28E /* CitizenBankMobileAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitizenBankMobileAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF2030D2B07012D00ECC28E /* CitizenBankMobileAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitizenBankMobileAppTests.swift; sourceTree = "<group>"; };
+		EBF203132B07012D00ECC28E /* CitizenBankMobileAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitizenBankMobileAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF203172B07012D00ECC28E /* CitizenBankMobileAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitizenBankMobileAppUITests.swift; sourceTree = "<group>"; };
+		EBF203192B07012D00ECC28E /* CitizenBankMobileAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitizenBankMobileAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBF202F12B07012B00ECC28E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF203062B07012D00ECC28E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF203102B07012D00ECC28E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBF202EB2B07012B00ECC28E = {
+			isa = PBXGroup;
+			children = (
+				EBF202F62B07012B00ECC28E /* CitizenBankMobileApp */,
+				EBF2030C2B07012D00ECC28E /* CitizenBankMobileAppTests */,
+				EBF203162B07012D00ECC28E /* CitizenBankMobileAppUITests */,
+				EBF202F52B07012B00ECC28E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBF202F52B07012B00ECC28E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBF202F42B07012B00ECC28E /* CitizenBankMobileApp.app */,
+				EBF203092B07012D00ECC28E /* CitizenBankMobileAppTests.xctest */,
+				EBF203132B07012D00ECC28E /* CitizenBankMobileAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBF202F62B07012B00ECC28E /* CitizenBankMobileApp */ = {
+			isa = PBXGroup;
+			children = (
+				EBF202F72B07012B00ECC28E /* CitizenBankMobileAppApp.swift */,
+				EBF202F92B07012B00ECC28E /* ContentView.swift */,
+				EBF202FB2B07012D00ECC28E /* Assets.xcassets */,
+				EBF203002B07012D00ECC28E /* Persistence.swift */,
+				EBF203022B07012D00ECC28E /* CitizenBankMobileApp.xcdatamodeld */,
+				EBF202FD2B07012D00ECC28E /* Preview Content */,
+			);
+			path = CitizenBankMobileApp;
+			sourceTree = "<group>";
+		};
+		EBF202FD2B07012D00ECC28E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EBF202FE2B07012D00ECC28E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EBF2030C2B07012D00ECC28E /* CitizenBankMobileAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2030D2B07012D00ECC28E /* CitizenBankMobileAppTests.swift */,
+			);
+			path = CitizenBankMobileAppTests;
+			sourceTree = "<group>";
+		};
+		EBF203162B07012D00ECC28E /* CitizenBankMobileAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBF203172B07012D00ECC28E /* CitizenBankMobileAppUITests.swift */,
+				EBF203192B07012D00ECC28E /* CitizenBankMobileAppUITestsLaunchTests.swift */,
+			);
+			path = CitizenBankMobileAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBF202F32B07012B00ECC28E /* CitizenBankMobileApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF2031D2B07012D00ECC28E /* Build configuration list for PBXNativeTarget "CitizenBankMobileApp" */;
+			buildPhases = (
+				EBF202F02B07012B00ECC28E /* Sources */,
+				EBF202F12B07012B00ECC28E /* Frameworks */,
+				EBF202F22B07012B00ECC28E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CitizenBankMobileApp;
+			productName = CitizenBankMobileApp;
+			productReference = EBF202F42B07012B00ECC28E /* CitizenBankMobileApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBF203082B07012D00ECC28E /* CitizenBankMobileAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF203202B07012D00ECC28E /* Build configuration list for PBXNativeTarget "CitizenBankMobileAppTests" */;
+			buildPhases = (
+				EBF203052B07012D00ECC28E /* Sources */,
+				EBF203062B07012D00ECC28E /* Frameworks */,
+				EBF203072B07012D00ECC28E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBF2030B2B07012D00ECC28E /* PBXTargetDependency */,
+			);
+			name = CitizenBankMobileAppTests;
+			productName = CitizenBankMobileAppTests;
+			productReference = EBF203092B07012D00ECC28E /* CitizenBankMobileAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBF203122B07012D00ECC28E /* CitizenBankMobileAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF203232B07012D00ECC28E /* Build configuration list for PBXNativeTarget "CitizenBankMobileAppUITests" */;
+			buildPhases = (
+				EBF2030F2B07012D00ECC28E /* Sources */,
+				EBF203102B07012D00ECC28E /* Frameworks */,
+				EBF203112B07012D00ECC28E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBF203152B07012D00ECC28E /* PBXTargetDependency */,
+			);
+			name = CitizenBankMobileAppUITests;
+			productName = CitizenBankMobileAppUITests;
+			productReference = EBF203132B07012D00ECC28E /* CitizenBankMobileAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBF202EC2B07012B00ECC28E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EBF202F32B07012B00ECC28E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					EBF203082B07012D00ECC28E = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = EBF202F32B07012B00ECC28E;
+					};
+					EBF203122B07012D00ECC28E = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = EBF202F32B07012B00ECC28E;
+					};
+				};
+			};
+			buildConfigurationList = EBF202EF2B07012B00ECC28E /* Build configuration list for PBXProject "CitizenBankMobileApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBF202EB2B07012B00ECC28E;
+			productRefGroup = EBF202F52B07012B00ECC28E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBF202F32B07012B00ECC28E /* CitizenBankMobileApp */,
+				EBF203082B07012D00ECC28E /* CitizenBankMobileAppTests */,
+				EBF203122B07012D00ECC28E /* CitizenBankMobileAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBF202F22B07012B00ECC28E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF202FF2B07012D00ECC28E /* Preview Assets.xcassets in Resources */,
+				EBF202FC2B07012D00ECC28E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF203072B07012D00ECC28E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF203112B07012D00ECC28E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBF202F02B07012B00ECC28E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF203042B07012D00ECC28E /* CitizenBankMobileApp.xcdatamodeld in Sources */,
+				EBF203012B07012D00ECC28E /* Persistence.swift in Sources */,
+				EBF202FA2B07012B00ECC28E /* ContentView.swift in Sources */,
+				EBF202F82B07012B00ECC28E /* CitizenBankMobileAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF203052B07012D00ECC28E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF2030E2B07012D00ECC28E /* CitizenBankMobileAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF2030F2B07012D00ECC28E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF203182B07012D00ECC28E /* CitizenBankMobileAppUITests.swift in Sources */,
+				EBF2031A2B07012D00ECC28E /* CitizenBankMobileAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBF2030B2B07012D00ECC28E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBF202F32B07012B00ECC28E /* CitizenBankMobileApp */;
+			targetProxy = EBF2030A2B07012D00ECC28E /* PBXContainerItemProxy */;
+		};
+		EBF203152B07012D00ECC28E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBF202F32B07012B00ECC28E /* CitizenBankMobileApp */;
+			targetProxy = EBF203142B07012D00ECC28E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EBF2031B2B07012D00ECC28E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBF2031C2B07012D00ECC28E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBF2031E2B07012D00ECC28E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CitizenBankMobileApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stuff.CitizenBankMobileApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBF2031F2B07012D00ECC28E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CitizenBankMobileApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stuff.CitizenBankMobileApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EBF203212B07012D00ECC28E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stuff.CitizenBankMobileAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CitizenBankMobileApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CitizenBankMobileApp";
+			};
+			name = Debug;
+		};
+		EBF203222B07012D00ECC28E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stuff.CitizenBankMobileAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CitizenBankMobileApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CitizenBankMobileApp";
+			};
+			name = Release;
+		};
+		EBF203242B07012D00ECC28E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stuff.CitizenBankMobileAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CitizenBankMobileApp;
+			};
+			name = Debug;
+		};
+		EBF203252B07012D00ECC28E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stuff.CitizenBankMobileAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CitizenBankMobileApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBF202EF2B07012B00ECC28E /* Build configuration list for PBXProject "CitizenBankMobileApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF2031B2B07012D00ECC28E /* Debug */,
+				EBF2031C2B07012D00ECC28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF2031D2B07012D00ECC28E /* Build configuration list for PBXNativeTarget "CitizenBankMobileApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF2031E2B07012D00ECC28E /* Debug */,
+				EBF2031F2B07012D00ECC28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF203202B07012D00ECC28E /* Build configuration list for PBXNativeTarget "CitizenBankMobileAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF203212B07012D00ECC28E /* Debug */,
+				EBF203222B07012D00ECC28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF203232B07012D00ECC28E /* Build configuration list for PBXNativeTarget "CitizenBankMobileAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF203242B07012D00ECC28E /* Debug */,
+				EBF203252B07012D00ECC28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EBF203022B07012D00ECC28E /* CitizenBankMobileApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EBF203032B07012D00ECC28E /* CitizenBankMobileApp.xcdatamodel */,
+			);
+			currentVersion = EBF203032B07012D00ECC28E /* CitizenBankMobileApp.xcdatamodel */;
+			path = CitizenBankMobileApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EBF202EC2B07012B00ECC28E /* Project object */;
+}

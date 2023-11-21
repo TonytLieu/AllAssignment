@@ -60,7 +60,7 @@ struct ContentView: View {
             //.padding(100)
                 .colorInvert()
             Text(screenTitile)
-            TextField("Email ", text: $emailID)
+            TextField("Email", text: $emailID)
                 .textFieldStyle(.roundedBorder)
             SecureField("Password", text: $password)
                 .textFieldStyle(.roundedBorder)

@@ -36,8 +36,9 @@ struct PlanetListView: View {
     var apiURL:String = "https://swapi.dev/api/planets/?format=json"//this one is so i can change the url whenever i want to look at the next page
     var apiURL2:URL = URL(string: "https://swapi.dev/api/planets/?format=json")!
     //this var is to call to get the api
-    var plop:PopulateListOfPlanets = PopulateListOfPlanets()
-    var cd:PopulateListOfCombine = PopulateListOfCombine()
+    //var plop:PopulateListOfPlanets = PopulateListOfPlanets()
+    //statesObject let you use property in object
+    @StateObject var cd:PopulateListOfCombine = PopulateListOfCombine()
     var body: some View {
         Text("Planets")
         NavigationStack{
@@ -52,19 +53,20 @@ struct PlanetListView: View {
                 .onChange(of: searchText) { oldValue, newValue in
                     cd.searching(searchText: newValue)
                 }
-        }.onAppear(){//where the func to get the Json will appear
+        }.onAppear{//where the func to get the Json will appear
 //            Task{
 //                await plop.populateList()
 //                planetsList = plop.planetsList
 //            }
-            cd.populateLists(urlString: apiURL)
-            
+                
+                  cd.populateLists(urlString: apiURL)
             
         }.refreshable {
-            Task{
-                await plop.populateList()
-                planetsList = plop.planetsList.sorted(by: {$0.name < $1.name})
-            }
+            //Task{
+              //  await plop.populateList()
+               // planetsList = plop.planetsList.sorted(by: {$0.name < $1.name})
+            //}
+            cd.populateLists(urlString: apiURL)
         }
             
         }

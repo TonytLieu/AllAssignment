@@ -18,7 +18,8 @@ class PopulateListOfCombine:ObservableObject{
     func populateLists(urlString:String){
         do{
             guard URL(string: urlString) != nil else{ throw NetworkError.urlError}
-            let planetList: () =  networkManagers2.getApi(url: URL(string: "https://swapi.dev/api/planets/?format=json")!, modelType: planetList.self)
+            networkManagers2.getApi(url: URL(string: "https://swapi.dev/api/planets/?format=json")!, modelType: planetList.self)
+                .receive(on: DispatchQueue.main)
                 .sink { completion in
                     switch completion{
                     case .finished:
@@ -40,11 +41,12 @@ class PopulateListOfCombine:ObservableObject{
                         print(error.localizedDescription)
                     }
                 }receiveValue: { pl in
-                    self.planetsList = pl.results
-                    self.filiteredplanetsList = pl.results
+                        self.planetsList = pl.results
+                        self.filiteredplanetsList = pl.results
+                    
                 }.store(in: &cancalable)
         }catch{
-          
+           
         }
         
     }

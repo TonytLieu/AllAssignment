@@ -22,7 +22,7 @@ final class LoginScreenUITest: XCTestCase {
     }
 
     func testScreenTitle() throws {
-        XCTAssertTrue(app.staticTexts["welcome to"].exists)
+        XCTAssertTrue(app.staticTexts["welcome to DigiPokemon"].exists)
     }
     func testLogin() throws{
         let email = app.textFields["emailID"]
@@ -46,13 +46,13 @@ final class LoginScreenUITest: XCTestCase {
         XCTAssert(collButton.exists)
         collButton.tap()
         
-        let animeName = app.staticTexts["naruto"]
+        let animeName = app.buttons["naruto"]
         XCTAssertTrue(animeName.waitForExistence(timeout: 5.0))
     }
     func testGenrateTabBarFlow(){
         let app = XCUIApplication()
-        app.textFields["emailID"].tap()
-        let passwordS = app.secureTextFields["password"]
+        app.textFields["Email"].tap()
+        let passwordS = app.secureTextFields["Password"]
         passwordS.tap()
     }
     func testLaunchPerformance() throws {

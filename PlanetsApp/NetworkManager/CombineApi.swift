@@ -17,7 +17,7 @@ class NetworkManager2:Networking2{
     func getApi<T>(url: URL, modelType: T.Type) -> AnyPublisher<T, Error> where T : Decodable {
         return URLSession.shared.dataTaskPublisher(for: url)
         //this will add a delay
-            .delay(for: .seconds(5.0), scheduler: DispatchQueue.main)
+        .delay(for: .seconds(5.0), scheduler: DispatchQueue.main)
         .map{$0.data}
         .decode(type: T.self, decoder: JSONDecoder())
         .eraseToAnyPublisher()

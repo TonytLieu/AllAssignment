@@ -43,6 +43,13 @@ final class PokemonViewModelTest: XCTestCase {
         XCTAssertEqual(pokemonListViewModel.pokemonList.count, 0)
         XCTAssertNotNil(pokemonListViewModel.customError)
     }
+    func testScreenTitle() throws {
+       // XCTAssert(app.staticText("welcome to Pokemon").exists)
+    }
+//    app = XCUIApplication()
+//    continueAfterFailure = false
+//    app.launch()
+    
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {

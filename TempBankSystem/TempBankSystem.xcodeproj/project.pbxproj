@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBB160D32B07AD8500A9810F /* TempBankSystemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB160D22B07AD8500A9810F /* TempBankSystemApp.swift */; };
+		EBB160D52B07AD8500A9810F /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB160D42B07AD8500A9810F /* LoginPage.swift */; };
+		EBB160D72B07AD8700A9810F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB160D62B07AD8700A9810F /* Assets.xcassets */; };
+		EBB160DA2B07AD8700A9810F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB160D92B07AD8700A9810F /* Preview Assets.xcassets */; };
+		EBB160E42B07AD8700A9810F /* TempBankSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB160E32B07AD8700A9810F /* TempBankSystemTests.swift */; };
+		EBB160EE2B07AD8700A9810F /* TempBankSystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB160ED2B07AD8700A9810F /* TempBankSystemUITests.swift */; };
+		EBB160F02B07AD8700A9810F /* TempBankSystemUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB160EF2B07AD8700A9810F /* TempBankSystemUITestsLaunchTests.swift */; };
+		EBB160FD2B07B4C900A9810F /* CustomerAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB160FC2B07B4C900A9810F /* CustomerAccount.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBB160E02B07AD8700A9810F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBB160C72B07AD8500A9810F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBB160CE2B07AD8500A9810F;
+			remoteInfo = TempBankSystem;
+		};
+		EBB160EA2B07AD8700A9810F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBB160C72B07AD8500A9810F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBB160CE2B07AD8500A9810F;
+			remoteInfo = TempBankSystem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBB160CF2B07AD8500A9810F /* TempBankSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempBankSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB160D22B07AD8500A9810F /* TempBankSystemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempBankSystemApp.swift; sourceTree = "<group>"; };
+		EBB160D42B07AD8500A9810F /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		EBB160D62B07AD8700A9810F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBB160D92B07AD8700A9810F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EBB160DF2B07AD8700A9810F /* TempBankSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempBankSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB160E32B07AD8700A9810F /* TempBankSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempBankSystemTests.swift; sourceTree = "<group>"; };
+		EBB160E92B07AD8700A9810F /* TempBankSystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempBankSystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB160ED2B07AD8700A9810F /* TempBankSystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempBankSystemUITests.swift; sourceTree = "<group>"; };
+		EBB160EF2B07AD8700A9810F /* TempBankSystemUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempBankSystemUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EBB160FC2B07B4C900A9810F /* CustomerAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerAccount.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBB160CC2B07AD8500A9810F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB160DC2B07AD8700A9810F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB160E62B07AD8700A9810F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBB160C62B07AD8500A9810F = {
+			isa = PBXGroup;
+			children = (
+				EBB160D12B07AD8500A9810F /* TempBankSystem */,
+				EBB160E22B07AD8700A9810F /* TempBankSystemTests */,
+				EBB160EC2B07AD8700A9810F /* TempBankSystemUITests */,
+				EBB160D02B07AD8500A9810F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBB160D02B07AD8500A9810F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBB160CF2B07AD8500A9810F /* TempBankSystem.app */,
+				EBB160DF2B07AD8700A9810F /* TempBankSystemTests.xctest */,
+				EBB160E92B07AD8700A9810F /* TempBankSystemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBB160D12B07AD8500A9810F /* TempBankSystem */ = {
+			isa = PBXGroup;
+			children = (
+				EBB160FF2B07B4F000A9810F /* ViewModel */,
+				EBB160FE2B07B4DA00A9810F /* NNetworkManager */,
+				EBB160D22B07AD8500A9810F /* TempBankSystemApp.swift */,
+				EBB160D42B07AD8500A9810F /* LoginPage.swift */,
+				EBB160FC2B07B4C900A9810F /* CustomerAccount.swift */,
+				EBB160D62B07AD8700A9810F /* Assets.xcassets */,
+				EBB160D82B07AD8700A9810F /* Preview Content */,
+			);
+			path = TempBankSystem;
+			sourceTree = "<group>";
+		};
+		EBB160D82B07AD8700A9810F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EBB160D92B07AD8700A9810F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EBB160E22B07AD8700A9810F /* TempBankSystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBB160E32B07AD8700A9810F /* TempBankSystemTests.swift */,
+			);
+			path = TempBankSystemTests;
+			sourceTree = "<group>";
+		};
+		EBB160EC2B07AD8700A9810F /* TempBankSystemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBB160ED2B07AD8700A9810F /* TempBankSystemUITests.swift */,
+				EBB160EF2B07AD8700A9810F /* TempBankSystemUITestsLaunchTests.swift */,
+			);
+			path = TempBankSystemUITests;
+			sourceTree = "<group>";
+		};
+		EBB160FE2B07B4DA00A9810F /* NNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NNetworkManager;
+			sourceTree = "<group>";
+		};
+		EBB160FF2B07B4F000A9810F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBB160CE2B07AD8500A9810F /* TempBankSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBB160F32B07AD8700A9810F /* Build configuration list for PBXNativeTarget "TempBankSystem" */;
+			buildPhases = (
+				EBB160CB2B07AD8500A9810F /* Sources */,
+				EBB160CC2B07AD8500A9810F /* Frameworks */,
+				EBB160CD2B07AD8500A9810F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TempBankSystem;
+			productName = TempBankSystem;
+			productReference = EBB160CF2B07AD8500A9810F /* TempBankSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBB160DE2B07AD8700A9810F /* TempBankSystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBB160F62B07AD8700A9810F /* Build configuration list for PBXNativeTarget "TempBankSystemTests" */;
+			buildPhases = (
+				EBB160DB2B07AD8700A9810F /* Sources */,
+				EBB160DC2B07AD8700A9810F /* Frameworks */,
+				EBB160DD2B07AD8700A9810F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBB160E12B07AD8700A9810F /* PBXTargetDependency */,
+			);
+			name = TempBankSystemTests;
+			productName = TempBankSystemTests;
+			productReference = EBB160DF2B07AD8700A9810F /* TempBankSystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBB160E82B07AD8700A9810F /* TempBankSystemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBB160F92B07AD8700A9810F /* Build configuration list for PBXNativeTarget "TempBankSystemUITests" */;
+			buildPhases = (
+				EBB160E52B07AD8700A9810F /* Sources */,
+				EBB160E62B07AD8700A9810F /* Frameworks */,
+				EBB160E72B07AD8700A9810F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBB160EB2B07AD8700A9810F /* PBXTargetDependency */,
+			);
+			name = TempBankSystemUITests;
+			productName = TempBankSystemUITests;
+			productReference = EBB160E92B07AD8700A9810F /* TempBankSystemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBB160C72B07AD8500A9810F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EBB160CE2B07AD8500A9810F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					EBB160DE2B07AD8700A9810F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = EBB160CE2B07AD8500A9810F;
+					};
+					EBB160E82B07AD8700A9810F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = EBB160CE2B07AD8500A9810F;
+					};
+				};
+			};
+			buildConfigurationList = EBB160CA2B07AD8500A9810F /* Build configuration list for PBXProject "TempBankSystem" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBB160C62B07AD8500A9810F;
+			productRefGroup = EBB160D02B07AD8500A9810F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBB160CE2B07AD8500A9810F /* TempBankSystem */,
+				EBB160DE2B07AD8700A9810F /* TempBankSystemTests */,
+				EBB160E82B07AD8700A9810F /* TempBankSystemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBB160CD2B07AD8500A9810F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB160DA2B07AD8700A9810F /* Preview Assets.xcassets in Resources */,
+				EBB160D72B07AD8700A9810F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB160DD2B07AD8700A9810F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB160E72B07AD8700A9810F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBB160CB2B07AD8500A9810F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB160D52B07AD8500A9810F /* LoginPage.swift in Sources */,
+				EBB160D32B07AD8500A9810F /* TempBankSystemApp.swift in Sources */,
+				EBB160FD2B07B4C900A9810F /* CustomerAccount.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB160DB2B07AD8700A9810F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB160E42B07AD8700A9810F /* TempBankSystemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB160E52B07AD8700A9810F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB160EE2B07AD8700A9810F /* TempBankSystemUITests.swift in Sources */,
+				EBB160F02B07AD8700A9810F /* TempBankSystemUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBB160E12B07AD8700A9810F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBB160CE2B07AD8500A9810F /* TempBankSystem */;
+			targetProxy = EBB160E02B07AD8700A9810F /* PBXContainerItemProxy */;
+		};
+		EBB160EB2B07AD8700A9810F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBB160CE2B07AD8500A9810F /* TempBankSystem */;
+			targetProxy = EBB160EA2B07AD8700A9810F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EBB160F12B07AD8700A9810F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBB160F22B07AD8700A9810F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBB160F42B07AD8700A9810F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TempBankSystem/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stuff.TempBankSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBB160F52B07AD8700A9810F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TempBankSystem/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stuff.TempBankSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EBB160F72B07AD8700A9810F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stuff.TempBankSystemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempBankSystem.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TempBankSystem";
+			};
+			name = Debug;
+		};
+		EBB160F82B07AD8700A9810F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stuff.TempBankSystemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempBankSystem.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TempBankSystem";
+			};
+			name = Release;
+		};
+		EBB160FA2B07AD8700A9810F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stuff.TempBankSystemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TempBankSystem;
+			};
+			name = Debug;
+		};
+		EBB160FB2B07AD8700A9810F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stuff.TempBankSystemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TempBankSystem;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBB160CA2B07AD8500A9810F /* Build configuration list for PBXProject "TempBankSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB160F12B07AD8700A9810F /* Debug */,
+				EBB160F22B07AD8700A9810F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBB160F32B07AD8700A9810F /* Build configuration list for PBXNativeTarget "TempBankSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB160F42B07AD8700A9810F /* Debug */,
+				EBB160F52B07AD8700A9810F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBB160F62B07AD8700A9810F /* Build configuration list for PBXNativeTarget "TempBankSystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB160F72B07AD8700A9810F /* Debug */,
+				EBB160F82B07AD8700A9810F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBB160F92B07AD8700A9810F /* Build configuration list for PBXNativeTarget "TempBankSystemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB160FA2B07AD8700A9810F /* Debug */,
+				EBB160FB2B07AD8700A9810F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBB160C72B07AD8500A9810F /* Project object */;
+}

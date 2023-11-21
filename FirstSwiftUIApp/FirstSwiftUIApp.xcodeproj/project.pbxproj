@@ -28,6 +28,7 @@
 		EB8136652AFBE15E007FC0F4 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8136642AFBE15E007FC0F4 /* UserInfo.swift */; };
 		EB8136B72AFD3210007FC0F4 /* LoginViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8136B62AFD3210007FC0F4 /* LoginViewModelTest.swift */; };
 		EB8136B92AFD4CBD007FC0F4 /* AuthManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8136B82AFD4CBD007FC0F4 /* AuthManger.swift */; };
+		EBB161892B0CC98000A9810F /* LoginScreenUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB161872B0CC8EE00A9810F /* LoginScreenUITest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		EB8136642AFBE15E007FC0F4 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		EB8136B62AFD3210007FC0F4 /* LoginViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTest.swift; sourceTree = "<group>"; };
 		EB8136B82AFD4CBD007FC0F4 /* AuthManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManger.swift; sourceTree = "<group>"; };
+		EBB161872B0CC8EE00A9810F /* LoginScreenUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenUITest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 		EB1020ED2AF92B2A007DE688 /* FirstSwiftUIAppUITests */ = {
 			isa = PBXGroup;
 			children = (
+				EBB161872B0CC8EE00A9810F /* LoginScreenUITest.swift */,
 				EB1020EE2AF92B2A007DE688 /* FirstSwiftUIAppUITests.swift */,
 				EB1020F02AF92B2A007DE688 /* FirstSwiftUIAppUITestsLaunchTests.swift */,
 			);
@@ -338,6 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBB161892B0CC98000A9810F /* LoginScreenUITest.swift in Sources */,
 				EB1020EF2AF92B2A007DE688 /* FirstSwiftUIAppUITests.swift in Sources */,
 				EB1020F12AF92B2A007DE688 /* FirstSwiftUIAppUITestsLaunchTests.swift in Sources */,
 			);

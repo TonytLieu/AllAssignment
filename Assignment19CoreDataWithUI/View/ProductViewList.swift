@@ -15,8 +15,8 @@ struct ProductViewList: View {
     //this var is to call to get the api
     //var plop:PopulateListOfPlanets = PopulateListOfPlanets()
     //statesObject let you use property in object
-    @StateObject var cd:PopulateListOfCombine = PopulateListOfCombine(networkManagers2: nM, coreDataManager: coreDataManager)
-    
+//    @StateObject var cd:PopulateListOfCombine = PopulateListOfCombine(networkManagers2: nM, coreDataManager: coreDataManager)
+//    
    /* @Environment(\.managedObjectContext) private var viewContext
     @FetchRequest(
         sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
@@ -31,14 +31,14 @@ struct ProductViewList: View {
         Text("Products")
         NavigationStack{
             Button("Canel APi"){
-                cd.cancelOnGoingTask()
+                
             }
             List(results){pl in
-                NavigationLink(""){
+                NavigationLink(pl.title ?? ""){
                 }
             }.searchable(text: $searchText, placement: .automatic,prompt: "search for Products")
                 .onChange(of: searchText) { oldValue, newValue in
-                    cd.searching(searchText: newValue)
+                   
                 }
         }.onAppear{//where the func to get the Json will appear
 //            Task{
@@ -46,14 +46,14 @@ struct ProductViewList: View {
 //                planetsList = plop.planetsList
 //            }
                 
-                  cd.populateLists(urlString: apiURL)
+                //  cd.populateLists(urlString: apiURL)
             
         }.refreshable {
             //Task{
               //  await plop.populateList()
                // planetsList = plop.planetsList.sorted(by: {$0.name < $1.name})
             //}
-            cd.populateLists(urlString: apiURL)
+           // cd.populateLists(urlString: apiURL)
         }
             
         }

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22222" systemVersion="23B81" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ProductEnitiy" representedClassName="ProductEnitiy" syncable="YES" codeGenerationType="class">
+        <attribute name="descriptions" optional="YES" attributeType="String"/>
+        <attribute name="productUUID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="productRelationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ProductID" inverseName="productRelationship" inverseEntity="ProductID"/>
+    </entity>
+    <entity name="ProductID" representedClassName="ProductID" syncable="YES" codeGenerationType="class">
+        <attribute name="price" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="productRelationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ProductEnitiy" inverseName="productRelationship" inverseEntity="ProductEnitiy"/>
+    </entity>
+</model>

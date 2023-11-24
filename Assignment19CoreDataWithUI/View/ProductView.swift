@@ -11,7 +11,7 @@ struct ProductView: View {
     var body: some View {
         NavigationStack{
             NavigationLink("KeyChain Screen"){
-               EmptyView()
+              KeyChainUseView()
             }.padding()
             NavigationLink("CoreData Screen"){
                 ProductViewList()

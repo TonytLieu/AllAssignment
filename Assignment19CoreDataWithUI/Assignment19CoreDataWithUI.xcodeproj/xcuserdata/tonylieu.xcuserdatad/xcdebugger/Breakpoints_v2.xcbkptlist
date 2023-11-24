@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A29894FB-D566-4830-87C7-092A861CC171"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "752031A6-5151-4D61-8F9D-94B23BC77130"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ViewModel/CombineData.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "populateLists(urlString:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "752031A6-5151-4D61-8F9D-94B23BC77130 - cac5551d5bfa26be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Assignment19CoreDataWithUI.Walmart) -&gt; () in Assignment19CoreDataWithUI.GetApiWithCore.populateLists(urlString: Swift.String) -&gt; ()"
+                  moduleName = "Assignment19CoreDataWithUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Assignment19CoreDataWithUI/ViewModel/CombineData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "752031A6-5151-4D61-8F9D-94B23BC77130 - cac5551d5bfa265d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Assignment19CoreDataWithUI.Walmart) -&gt; () in Assignment19CoreDataWithUI.GetApiWithCore.populateLists(urlString: Swift.String) -&gt; ()"
+                  moduleName = "Assignment19CoreDataWithUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Assignment19CoreDataWithUI/ViewModel/CombineData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "75416B6D-01E6-4C53-A04C-0E829C498448"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Coredata/CoreDataManage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "saveDataIntoDatabase(list:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

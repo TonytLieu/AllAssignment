@@ -13,6 +13,7 @@
 		EB38D0742B0DA9E10090F68B /* ApiEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D0732B0DA9E10090F68B /* ApiEndpoint.swift */; };
 		EB38D0772B0DAC060090F68B /* ProductViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D0762B0DAC060090F68B /* ProductViewList.swift */; };
 		EB38D07A2B0DBDE20090F68B /* CoreDataManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D0792B0DBDE20090F68B /* CoreDataManage.swift */; };
+		EB38D1282B10645F0090F68B /* KeyChainUseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D1272B10645F0090F68B /* KeyChainUseView.swift */; };
 		EBB161D92B0D476B00A9810F /* Assignment19CoreDataWithUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB161D82B0D476B00A9810F /* Assignment19CoreDataWithUIApp.swift */; };
 		EBB161DD2B0D476D00A9810F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB161DC2B0D476D00A9810F /* Assets.xcassets */; };
 		EBB161E02B0D476D00A9810F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB161DF2B0D476D00A9810F /* Preview Assets.xcassets */; };
@@ -21,7 +22,7 @@
 		EBB161EF2B0D476D00A9810F /* Assignment19CoreDataWithUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB161EE2B0D476D00A9810F /* Assignment19CoreDataWithUITests.swift */; };
 		EBB161F92B0D476D00A9810F /* Assignment19CoreDataWithUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB161F82B0D476D00A9810F /* Assignment19CoreDataWithUIUITests.swift */; };
 		EBB161FB2B0D476D00A9810F /* Assignment19CoreDataWithUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB161FA2B0D476D00A9810F /* Assignment19CoreDataWithUIUITestsLaunchTests.swift */; };
-		EBB162092B0D99A500A9810F /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB162082B0D99A500A9810F /* Products.swift */; };
+		EBB162092B0D99A500A9810F /* Walmart.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB162082B0D99A500A9810F /* Walmart.swift */; };
 		EBB1620B2B0DA2CC00A9810F /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB1620A2B0DA2CC00A9810F /* ProductView.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,8 @@
 		EB38D0732B0DA9E10090F68B /* ApiEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndpoint.swift; sourceTree = "<group>"; };
 		EB38D0762B0DAC060090F68B /* ProductViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewList.swift; sourceTree = "<group>"; };
 		EB38D0792B0DBDE20090F68B /* CoreDataManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManage.swift; sourceTree = "<group>"; };
+		EB38D1272B10645F0090F68B /* KeyChainUseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainUseView.swift; sourceTree = "<group>"; };
+		EB38D1292B106FEC0090F68B /* Assignment19CoreDataWithUI v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Assignment19CoreDataWithUI v2.xcdatamodel"; sourceTree = "<group>"; };
 		EBB161D52B0D476B00A9810F /* Assignment19CoreDataWithUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment19CoreDataWithUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB161D82B0D476B00A9810F /* Assignment19CoreDataWithUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment19CoreDataWithUIApp.swift; sourceTree = "<group>"; };
 		EBB161DC2B0D476D00A9810F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +63,7 @@
 		EBB161F42B0D476D00A9810F /* Assignment19CoreDataWithUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment19CoreDataWithUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB161F82B0D476D00A9810F /* Assignment19CoreDataWithUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment19CoreDataWithUIUITests.swift; sourceTree = "<group>"; };
 		EBB161FA2B0D476D00A9810F /* Assignment19CoreDataWithUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment19CoreDataWithUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		EBB162082B0D99A500A9810F /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		EBB162082B0D99A500A9810F /* Walmart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walmart.swift; sourceTree = "<group>"; };
 		EBB1620A2B0DA2CC00A9810F /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +97,7 @@
 			children = (
 				EBB1620A2B0DA2CC00A9810F /* ProductView.swift */,
 				EB38D0762B0DAC060090F68B /* ProductViewList.swift */,
+				EB38D1272B10645F0090F68B /* KeyChainUseView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -171,7 +175,7 @@
 		EBB162072B0D999600A9810F /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				EBB162082B0D99A500A9810F /* Products.swift */,
+				EBB162082B0D99A500A9810F /* Walmart.swift */,
 				EB38D0732B0DA9E10090F68B /* ApiEndpoint.swift */,
 			);
 			path = Model;
@@ -328,10 +332,11 @@
 				EB38D06F2B0DA72D0090F68B /* CombineApi.swift in Sources */,
 				EB38D07A2B0DBDE20090F68B /* CoreDataManage.swift in Sources */,
 				EB38D0772B0DAC060090F68B /* ProductViewList.swift in Sources */,
-				EBB162092B0D99A500A9810F /* Products.swift in Sources */,
+				EBB162092B0D99A500A9810F /* Walmart.swift in Sources */,
 				EBB161D92B0D476B00A9810F /* Assignment19CoreDataWithUIApp.swift in Sources */,
 				EBB1620B2B0DA2CC00A9810F /* ProductView.swift in Sources */,
 				EB38D0742B0DA9E10090F68B /* ApiEndpoint.swift in Sources */,
+				EB38D1282B10645F0090F68B /* KeyChainUseView.swift in Sources */,
 				EBB161E52B0D476D00A9810F /* Assignment19CoreDataWithUI.xcdatamodeld in Sources */,
 				EB38D0702B0DA72D0090F68B /* NetworkErrors.swift in Sources */,
 				EB38D0722B0DA7B10090F68B /* CombineData.swift in Sources */,
@@ -663,6 +668,7 @@
 		EBB161E32B0D476D00A9810F /* Assignment19CoreDataWithUI.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				EB38D1292B106FEC0090F68B /* Assignment19CoreDataWithUI v2.xcdatamodel */,
 				EBB161E42B0D476D00A9810F /* Assignment19CoreDataWithUI.xcdatamodel */,
 			);
 			currentVersion = EBB161E42B0D476D00A9810F /* Assignment19CoreDataWithUI.xcdatamodel */;

@@ -3,5 +3,10 @@
     <entity name="ProductEnitiy" representedClassName="ProductEnitiy" syncable="YES" codeGenerationType="class">
         <attribute name="descriptions" optional="YES" attributeType="String"/>
         <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="productRelationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ProductID" inverseName="productRelationship" inverseEntity="ProductID"/>
+    </entity>
+    <entity name="ProductID" representedClassName="ProductID" syncable="YES" codeGenerationType="class">
+        <attribute name="price" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="productRelationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ProductEnitiy" inverseName="productRelationship" inverseEntity="ProductEnitiy"/>
     </entity>
 </model>

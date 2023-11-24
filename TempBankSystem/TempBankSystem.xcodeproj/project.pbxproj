@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB38D07E2B0E37A60090F68B /* CheckingAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D07D2B0E37A60090F68B /* CheckingAccount.swift */; };
+		EB38D0802B0E37B30090F68B /* BusinessAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D07F2B0E37B30090F68B /* BusinessAccount.swift */; };
+		EB38D0822B0E37BD0090F68B /* SavingAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D0812B0E37BD0090F68B /* SavingAccount.swift */; };
+		EB38D0842B0E38010090F68B /* CheckingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D0832B0E38010090F68B /* CheckingViewModel.swift */; };
+		EB38D0862B0E38160090F68B /* BusinessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D0852B0E38160090F68B /* BusinessViewModel.swift */; };
+		EB38D0882B0E38220090F68B /* SavingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D0872B0E38220090F68B /* SavingViewModel.swift */; };
+		EB38D08A2B0E383C0090F68B /* LoginTestUICase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D0892B0E383C0090F68B /* LoginTestUICase.swift */; };
+		EB38D08C2B0E39FC0090F68B /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D08B2B0E39FC0090F68B /* People.swift */; };
+		EB38D08E2B0E3A2F0090F68B /* ApiEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D08D2B0E3A2F0090F68B /* ApiEndpoint.swift */; };
+		EB38D0902B0E3A420090F68B /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D08F2B0E3A420090F68B /* NetworkError.swift */; };
+		EB38D0922B0E3A720090F68B /* TransferMoneyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D0912B0E3A720090F68B /* TransferMoneyPage.swift */; };
+		EB38D0942B0E3AF90090F68B /* TransactionHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D0932B0E3AF90090F68B /* TransactionHistory.swift */; };
+		EB38D0962B0E3BB00090F68B /* intersetPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D0952B0E3BB00090F68B /* intersetPage.swift */; };
+		EB38D0982B0E3C050090F68B /* IntersetPageDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D0972B0E3C050090F68B /* IntersetPageDetails.swift */; };
+		EB38D09A2B0E3C440090F68B /* PaymentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D0992B0E3C440090F68B /* PaymentPage.swift */; };
+		EB38D09C2B0E3CE50090F68B /* PaymentDetailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D09B2B0E3CE50090F68B /* PaymentDetailPage.swift */; };
+		EB38D09E2B0E3D0D0090F68B /* TransferHistoryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D09D2B0E3D0D0090F68B /* TransferHistoryDetails.swift */; };
+		EB38D0A02B0E3D7C0090F68B /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D09F2B0E3D7C0090F68B /* Networking.swift */; };
+		EB38D0A22B0E402B0090F68B /* SignUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D0A12B0E402B0090F68B /* SignUpPage.swift */; };
 		EBB160D32B07AD8500A9810F /* TempBankSystemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB160D22B07AD8500A9810F /* TempBankSystemApp.swift */; };
 		EBB160D52B07AD8500A9810F /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB160D42B07AD8500A9810F /* LoginPage.swift */; };
 		EBB160D72B07AD8700A9810F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB160D62B07AD8700A9810F /* Assets.xcassets */; };
@@ -35,6 +54,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB38D07D2B0E37A60090F68B /* CheckingAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckingAccount.swift; sourceTree = "<group>"; };
+		EB38D07F2B0E37B30090F68B /* BusinessAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessAccount.swift; sourceTree = "<group>"; };
+		EB38D0812B0E37BD0090F68B /* SavingAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingAccount.swift; sourceTree = "<group>"; };
+		EB38D0832B0E38010090F68B /* CheckingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckingViewModel.swift; sourceTree = "<group>"; };
+		EB38D0852B0E38160090F68B /* BusinessViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessViewModel.swift; sourceTree = "<group>"; };
+		EB38D0872B0E38220090F68B /* SavingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingViewModel.swift; sourceTree = "<group>"; };
+		EB38D0892B0E383C0090F68B /* LoginTestUICase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTestUICase.swift; sourceTree = "<group>"; };
+		EB38D08B2B0E39FC0090F68B /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		EB38D08D2B0E3A2F0090F68B /* ApiEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndpoint.swift; sourceTree = "<group>"; };
+		EB38D08F2B0E3A420090F68B /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		EB38D0912B0E3A720090F68B /* TransferMoneyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferMoneyPage.swift; sourceTree = "<group>"; };
+		EB38D0932B0E3AF90090F68B /* TransactionHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistory.swift; sourceTree = "<group>"; };
+		EB38D0952B0E3BB00090F68B /* intersetPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = intersetPage.swift; sourceTree = "<group>"; };
+		EB38D0972B0E3C050090F68B /* IntersetPageDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersetPageDetails.swift; sourceTree = "<group>"; };
+		EB38D0992B0E3C440090F68B /* PaymentPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentPage.swift; sourceTree = "<group>"; };
+		EB38D09B2B0E3CE50090F68B /* PaymentDetailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailPage.swift; sourceTree = "<group>"; };
+		EB38D09D2B0E3D0D0090F68B /* TransferHistoryDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferHistoryDetails.swift; sourceTree = "<group>"; };
+		EB38D09F2B0E3D7C0090F68B /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		EB38D0A12B0E402B0090F68B /* SignUpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPage.swift; sourceTree = "<group>"; };
 		EBB160CF2B07AD8500A9810F /* TempBankSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempBankSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB160D22B07AD8500A9810F /* TempBankSystemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempBankSystemApp.swift; sourceTree = "<group>"; };
 		EBB160D42B07AD8500A9810F /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
@@ -73,6 +111,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB38D07B2B0E36FA0090F68B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EBB160FC2B07B4C900A9810F /* CustomerAccount.swift */,
+				EBB160D42B07AD8500A9810F /* LoginPage.swift */,
+				EB38D07D2B0E37A60090F68B /* CheckingAccount.swift */,
+				EB38D07F2B0E37B30090F68B /* BusinessAccount.swift */,
+				EB38D0812B0E37BD0090F68B /* SavingAccount.swift */,
+				EB38D0932B0E3AF90090F68B /* TransactionHistory.swift */,
+				EB38D09D2B0E3D0D0090F68B /* TransferHistoryDetails.swift */,
+				EB38D0912B0E3A720090F68B /* TransferMoneyPage.swift */,
+				EB38D0952B0E3BB00090F68B /* intersetPage.swift */,
+				EB38D0972B0E3C050090F68B /* IntersetPageDetails.swift */,
+				EB38D0992B0E3C440090F68B /* PaymentPage.swift */,
+				EB38D09B2B0E3CE50090F68B /* PaymentDetailPage.swift */,
+				EB38D0A12B0E402B0090F68B /* SignUpPage.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EB38D07C2B0E370E0090F68B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB38D08B2B0E39FC0090F68B /* People.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		EBB160C62B07AD8500A9810F = {
 			isa = PBXGroup;
 			children = (
@@ -96,11 +162,11 @@
 		EBB160D12B07AD8500A9810F /* TempBankSystem */ = {
 			isa = PBXGroup;
 			children = (
+				EB38D07C2B0E370E0090F68B /* Model */,
+				EB38D07B2B0E36FA0090F68B /* View */,
 				EBB160FF2B07B4F000A9810F /* ViewModel */,
 				EBB160FE2B07B4DA00A9810F /* NNetworkManager */,
 				EBB160D22B07AD8500A9810F /* TempBankSystemApp.swift */,
-				EBB160D42B07AD8500A9810F /* LoginPage.swift */,
-				EBB160FC2B07B4C900A9810F /* CustomerAccount.swift */,
 				EBB160D62B07AD8700A9810F /* Assets.xcassets */,
 				EBB160D82B07AD8700A9810F /* Preview Content */,
 			);
@@ -119,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				EBB160E32B07AD8700A9810F /* TempBankSystemTests.swift */,
+				EB38D0892B0E383C0090F68B /* LoginTestUICase.swift */,
 			);
 			path = TempBankSystemTests;
 			sourceTree = "<group>";
@@ -135,6 +202,9 @@
 		EBB160FE2B07B4DA00A9810F /* NNetworkManager */ = {
 			isa = PBXGroup;
 			children = (
+				EB38D08D2B0E3A2F0090F68B /* ApiEndpoint.swift */,
+				EB38D09F2B0E3D7C0090F68B /* Networking.swift */,
+				EB38D08F2B0E3A420090F68B /* NetworkError.swift */,
 			);
 			path = NNetworkManager;
 			sourceTree = "<group>";
@@ -142,6 +212,9 @@
 		EBB160FF2B07B4F000A9810F /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				EB38D0832B0E38010090F68B /* CheckingViewModel.swift */,
+				EB38D0852B0E38160090F68B /* BusinessViewModel.swift */,
+				EB38D0872B0E38220090F68B /* SavingViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -277,8 +350,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBB160D52B07AD8500A9810F /* LoginPage.swift in Sources */,
+				EB38D07E2B0E37A60090F68B /* CheckingAccount.swift in Sources */,
+				EB38D09C2B0E3CE50090F68B /* PaymentDetailPage.swift in Sources */,
+				EB38D0862B0E38160090F68B /* BusinessViewModel.swift in Sources */,
 				EBB160D32B07AD8500A9810F /* TempBankSystemApp.swift in Sources */,
+				EB38D08C2B0E39FC0090F68B /* People.swift in Sources */,
+				EB38D0A22B0E402B0090F68B /* SignUpPage.swift in Sources */,
+				EB38D09E2B0E3D0D0090F68B /* TransferHistoryDetails.swift in Sources */,
+				EB38D0982B0E3C050090F68B /* IntersetPageDetails.swift in Sources */,
+				EB38D0802B0E37B30090F68B /* BusinessAccount.swift in Sources */,
+				EB38D0882B0E38220090F68B /* SavingViewModel.swift in Sources */,
+				EB38D0942B0E3AF90090F68B /* TransactionHistory.swift in Sources */,
+				EB38D0A02B0E3D7C0090F68B /* Networking.swift in Sources */,
+				EB38D08E2B0E3A2F0090F68B /* ApiEndpoint.swift in Sources */,
+				EB38D09A2B0E3C440090F68B /* PaymentPage.swift in Sources */,
+				EB38D0922B0E3A720090F68B /* TransferMoneyPage.swift in Sources */,
 				EBB160FD2B07B4C900A9810F /* CustomerAccount.swift in Sources */,
+				EB38D0962B0E3BB00090F68B /* intersetPage.swift in Sources */,
+				EB38D0902B0E3A420090F68B /* NetworkError.swift in Sources */,
+				EB38D0822B0E37BD0090F68B /* SavingAccount.swift in Sources */,
+				EB38D0842B0E38010090F68B /* CheckingViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBB160E42B07AD8700A9810F /* TempBankSystemTests.swift in Sources */,
+				EB38D08A2B0E383C0090F68B /* LoginTestUICase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

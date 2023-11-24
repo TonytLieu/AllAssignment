@@ -12,6 +12,7 @@ struct ProductViewList: View {
     @State private var searchText = ""
     var apiURL:String = "https://dummyjson.com/products"//this one is so i can change the url whenever i want to look at the next page
     var apiURL2:URL = URL(string: "https://dummyjson.com/products")!
+    var  cora = GetApiWithCore()
     //this var is to call to get the api
     //var plop:PopulateListOfPlanets = PopulateListOfPlanets()
     //statesObject let you use property in object
@@ -22,11 +23,10 @@ struct ProductViewList: View {
         sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
         animation: .default)
     private var items: FetchedResults<Item>*/
-    
+    //offline
     @FetchRequest(entity: ProductEnitiy.entity(), sortDescriptors:[])
     var results:FetchedResults<ProductEnitiy>
     let request:NSFetchRequest<ProductEnitiy> = ProductEnitiy.fetchRequest()
-    
     var body: some View {
         Text("Products")
         NavigationStack{
@@ -45,8 +45,7 @@ struct ProductViewList: View {
 //                await plop.populateList()
 //                planetsList = plop.planetsList
 //            }
-                
-                //  cd.populateLists(urlString: apiURL)
+            cora.populateLists(urlString: apiURL)
             
         }.refreshable {
             //Task{

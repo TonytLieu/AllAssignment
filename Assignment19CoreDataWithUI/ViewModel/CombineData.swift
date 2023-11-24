@@ -7,7 +7,7 @@
 
 import Foundation
 import Combine
-class PopulateListOfCombine:ObservableObject{
+class GetApiWithCore:ObservableObject{
     var networkManagers2:NetworkManager2 = NetworkManager2()
     @Published var productsList:[Product] = []
     @Published var filiteredProductsList:[Product] = []
@@ -15,17 +15,22 @@ class PopulateListOfCombine:ObservableObject{
     var apiURL:String = "https://dummyjson.com/products"
     var isErrorOccured:Bool = false
     var cancalable = Set<AnyCancellable>()
-    var coreDataManager: CoreDataActions
-    init(networkManagers2: NetworkManager2,  coreDataManager:CoreDataActions = CoreDataManage(context:PersistenceController.shared.container.viewContext)) {
-        self.networkManagers2 = networkManagers2
-        self.coreDataManager = coreDataManager
-    }
+    var coreDataManager = CoreDataManage(context:PersistenceController.shared.container.viewContext)
+    
+//    init(networkManagers2: NetworkManager2,  coreDataManager:CoreDataActions = CoreDataManage(context:PersistenceController.shared.container.viewContext)) {
+//        self.networkManagers2 = networkManagers2
+//        self.coreDataManager = coreDataManager
+//        getSQlitePath()
+//    }
+//    deinit{
+//        self.cancalable.removeAll()
+//    }
     
     func populateLists(urlString:String){
         do{
             guard URL(string: urlString) != nil else{ throw NetworkError.urlError}
-            networkManagers2.getApi(url: URL(string: "https://dummyjson.com/products")!, modelType: Products.self)
-                .receive(on: DispatchQueue.main)
+            networkManagers2.getApi(url: URL(string: "https://dummyjson.com/products")!, modelType: Walmart.self)
+                .receive(on: RunLoop.main)
                 .sink { completion in
                     switch completion{
                     case .finished:
@@ -47,10 +52,12 @@ class PopulateListOfCombine:ObservableObject{
                         print(error.localizedDescription)
                     }
                 }receiveValue: { pl in
+                    
                     self.productsList = pl.products
+                    self.getSQlitePath()
                     Task{
-                        let coredataManager = CoreDataManage(context:PersistenceController.shared.container.viewContext)
-                        try await coredataManager.saveDataIntoDatabase(list: self.productsList)
+                        try await self.coreDataManager.clearAllRecords()
+                        try await self.coreDataManager.saveDataIntoDatabase(list: self.productsList)
                     }
                     self.filiteredProductsList = pl.products
                     
@@ -78,7 +85,7 @@ class PopulateListOfCombine:ObservableObject{
             return
         }
         let sqlitePath = url.appendingPathComponent("Assignment19CoreDataWithUIApp")
-        print(sqlitePath)
+        print(sqlitePath.absoluteString)
     }
     
 }

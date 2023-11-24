@@ -14,7 +14,7 @@ struct Assignment19CoreDataWithUIApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ProductViewList().environment(\.managedObjectContext, persistenceController.container.viewContext)
+            ProductView().environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

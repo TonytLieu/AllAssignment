@@ -9,11 +9,10 @@ import Foundation
 import Foundation
 
 
-struct Products: Codable {
+struct Walmart: Codable {
     let products: [Product]
     let total, skip, limit: Int
 }
-
 // MARK: - Product
 struct Product: Codable, Identifiable {
     let id: Int

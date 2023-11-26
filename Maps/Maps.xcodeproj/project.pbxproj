@@ -14,6 +14,12 @@
 		EB38D10F2B10438D0090F68B /* MapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D10E2B10438D0090F68B /* MapsTests.swift */; };
 		EB38D1192B10438D0090F68B /* MapsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D1182B10438D0090F68B /* MapsUITests.swift */; };
 		EB38D11B2B10438D0090F68B /* MapsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D11A2B10438D0090F68B /* MapsUITestsLaunchTests.swift */; };
+		EB38D12F2B1272860090F68B /* NetworkErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D12E2B1272860090F68B /* NetworkErrors.swift */; };
+		EB38D1312B12728D0090F68B /* CombineApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D1302B12728D0090F68B /* CombineApi.swift */; };
+		EB38D1362B1273330090F68B /* MapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D1352B1273330090F68B /* MapModel.swift */; };
+		EB38D1382B1274230090F68B /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D1372B1274230090F68B /* MapViewModel.swift */; };
+		EB38D13C2B127A860090F68B /* UserLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D13B2B127A860090F68B /* UserLocationManager.swift */; };
+		EB38D13E2B13AAA10090F68B /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D13D2B13AAA10090F68B /* Place.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		EB38D1142B10438D0090F68B /* MapsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB38D1182B10438D0090F68B /* MapsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsUITests.swift; sourceTree = "<group>"; };
 		EB38D11A2B10438D0090F68B /* MapsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EB38D12E2B1272860090F68B /* NetworkErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkErrors.swift; sourceTree = "<group>"; };
+		EB38D1302B12728D0090F68B /* CombineApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombineApi.swift; sourceTree = "<group>"; };
+		EB38D1352B1273330090F68B /* MapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModel.swift; sourceTree = "<group>"; };
+		EB38D1372B1274230090F68B /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		EB38D13B2B127A860090F68B /* UserLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationManager.swift; sourceTree = "<group>"; };
+		EB38D13D2B13AAA10090F68B /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,10 @@
 		EB38D0F12B10438B0090F68B = {
 			isa = PBXGroup;
 			children = (
+				EB38D1342B1273210090F68B /* Model */,
+				EB38D12C2B1272130090F68B /* NetworkManager */,
+				EB38D12B2B12720D0090F68B /* View */,
+				EB38D12A2B1271FD0090F68B /* ViewModel */,
 				EB38D0FC2B10438B0090F68B /* Maps */,
 				EB38D10D2B10438D0090F68B /* MapsTests */,
 				EB38D1172B10438D0090F68B /* MapsUITests */,
@@ -95,7 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				EB38D0FD2B10438B0090F68B /* MapsApp.swift */,
-				EB38D0FF2B10438B0090F68B /* ContentView.swift */,
 				EB38D1012B10438D0090F68B /* Assets.xcassets */,
 				EB38D1032B10438D0090F68B /* Preview Content */,
 			);
@@ -125,6 +140,41 @@
 				EB38D11A2B10438D0090F68B /* MapsUITestsLaunchTests.swift */,
 			);
 			path = MapsUITests;
+			sourceTree = "<group>";
+		};
+		EB38D12A2B1271FD0090F68B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EB38D1372B1274230090F68B /* MapViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EB38D12B2B12720D0090F68B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB38D0FF2B10438B0090F68B /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EB38D12C2B1272130090F68B /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				EB38D13B2B127A860090F68B /* UserLocationManager.swift */,
+				EB38D1302B12728D0090F68B /* CombineApi.swift */,
+				EB38D12E2B1272860090F68B /* NetworkErrors.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		EB38D1342B1273210090F68B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB38D1352B1273330090F68B /* MapModel.swift */,
+				EB38D13D2B13AAA10090F68B /* Place.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +309,12 @@
 			files = (
 				EB38D1002B10438B0090F68B /* ContentView.swift in Sources */,
 				EB38D0FE2B10438B0090F68B /* MapsApp.swift in Sources */,
+				EB38D1312B12728D0090F68B /* CombineApi.swift in Sources */,
+				EB38D13E2B13AAA10090F68B /* Place.swift in Sources */,
+				EB38D1362B1273330090F68B /* MapModel.swift in Sources */,
+				EB38D12F2B1272860090F68B /* NetworkErrors.swift in Sources */,
+				EB38D1382B1274230090F68B /* MapViewModel.swift in Sources */,
+				EB38D13C2B127A860090F68B /* UserLocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +480,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Maps/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need to get user current loction to serve better";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +509,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Maps/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need to get user current loction to serve better";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

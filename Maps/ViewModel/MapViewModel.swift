@@ -14,12 +14,12 @@ class GetApiWithCore:ObservableObject{
     @Published var placeList:[Place] = []
     var customError:NetworkError?
     var apiURL:String = "https://jsonplaceholder.typicode.com/users"
-    var isErrorOccured:Bool = false
+    var isErrorOccured:Bool = true
     var cancalable = Set<AnyCancellable>()
     func populateLists(urlString:String){
         do{
             guard URL(string: urlString) != nil else{ throw NetworkError.urlError}
-            networkManagers2.getApi(url: URL(string:   apiURL)!, modelType: MapsList.self)
+            networkManagers2.getApi(url: URL(string:  urlString)!, modelType: [MapsList].self)
                 .receive(on: RunLoop.main)
                 .sink { completion in
                     switch completion{
@@ -40,10 +40,10 @@ class GetApiWithCore:ObservableObject{
                         }
                         self.customError = NetworkError.serverNotFoundError
                         print(error.localizedDescription)
+                        print(String(describing: error))
                     }
                 }receiveValue: { pl in
-                    
-                    self.mapsList = [pl].self
+                    self.mapsList = pl.self
                 }.store(in: &cancalable)
         }catch{
             

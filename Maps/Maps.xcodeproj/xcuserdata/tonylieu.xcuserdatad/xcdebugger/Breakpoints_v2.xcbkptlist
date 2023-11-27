@@ -7,17 +7,111 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "0AAF4806-908E-4A47-A2C6-CAC338C62535"
+            uuid = "767AC49C-0A9F-454D-98DA-87AFF6E3AA06"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Model/MapModel.swift"
+            filePath = "ViewModel/MapViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "10"
-            endingLineNumber = "10"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "populateLists(urlString:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "092F3DB5-DEA6-44EB-BA8E-363A9BC101A2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ViewModel/MapViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "populateLists(urlString:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "092F3DB5-DEA6-44EB-BA8E-363A9BC101A2 - d1fd8e542ca5389e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Maps.GetApiWithCore.populateLists(urlString: Swift.String) -&gt; ()"
+                  moduleName = "Maps"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Maps/ViewModel/MapViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "1140">
+               </Location>
+               <Location
+                  uuid = "092F3DB5-DEA6-44EB-BA8E-363A9BC101A2 - 8bf760291a3e1f50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Maps.MapsList) -&gt; () in Maps.GetApiWithCore.populateLists(urlString: Swift.String) -&gt; ()"
+                  moduleName = "Maps"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Maps/ViewModel/MapViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "784">
+               </Location>
+               <Location
+                  uuid = "092F3DB5-DEA6-44EB-BA8E-363A9BC101A2 - 8bf760291a3e1f50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Maps.MapsList) -&gt; () in Maps.GetApiWithCore.populateLists(urlString: Swift.String) -&gt; ()"
+                  moduleName = "Maps"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Maps/ViewModel/MapViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "432">
+               </Location>
+               <Location
+                  uuid = "092F3DB5-DEA6-44EB-BA8E-363A9BC101A2 - be713d89bf08ff6c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Array&lt;Maps.MapsList&gt;) -&gt; () in Maps.GetApiWithCore.populateLists(urlString: Swift.String) -&gt; ()"
+                  moduleName = "Maps"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Maps/ViewModel/MapViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A248A51-C111-4DAA-9EF8-4B64572D6E2D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "View/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "body"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

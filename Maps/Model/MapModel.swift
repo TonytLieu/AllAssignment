@@ -6,8 +6,6 @@
 //
 
 import Foundation
-
-// MARK: - WelcomeElement
 struct MapsList: Codable, Identifiable {
     let id: Int
     let name, username, email: String

@@ -21,9 +21,8 @@ import SwiftUI
 import MapKit
 struct ContentView: View {
     //Span control the overlooking size of the map
-    @StateObject var userLocation = UserLocationManager()
-    var apiList = GetApiWithCore()
-    @State var placesList:[Place] = []
+     var userLocation = UserLocationManager()
+    @StateObject var apiList = GetApiWithCore()
     @State var staticRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: -37.3159, longitude:81.1496),span: MKCoordinateSpan(latitudeDelta: 100, longitudeDelta: 100))
     var somePlace = Place(name: "something", coordinate: CLLocationCoordinate2D(latitude: -37.3159, longitude:81.1496))
     var region:Binding<MKCoordinateRegion>?{
@@ -35,24 +34,28 @@ struct ContentView: View {
     }
     var body: some View {
         VStack {
-            //Map(coordinateRegion: $staticRegion ).ignoresSafeArea()
-            if let region = region{
-               // Map(coordinateRegion: $staticRegion ).ignoresSafeArea()
-                ForEach(placesList) { list in
+            Map{
+                ForEach(apiList.mapsList) { list in
+                    Marker(list.name , coordinate: CLLocationCoordinate2D(latitude: Double(list.address.geo
+                        .lat)!, longitude:Double(list.address.geo
+                            .lng)!))
                 }
-                Map(coordinateRegion: region, annotationItems:
-                                        [somePlace]){place in
-                    MapMarker(coordinate: place.coordinate)
-                                }
+//                Marker(coordinate: place.coordinate) {
+//                    <#code#>
+//                }
+//                Marker(place.name ,coordinate: place.coordinate)
+            //Map(coordinateRegion: $staticRegion ).ignoresSafeArea()
+           // if let region = region{
+               // Map(coordinateRegion: $staticRegion ).ignoresSafeArea()
+//                ForEach(placesList) { list in
+//                }
+//                Map(coordinateRegion: region, annotationItems:
+//                                        [somePlace]){place in
+//                    MapMarker(coordinate: place.coordinate)
+//                                }
             }
         }.onAppear(){
-            apiList.mapsList.forEach { placess in
-                var somep = Place(name: placess.name, coordinate: CLLocationCoordinate2D(latitude: Double(placess.address.geo
-                    .lat)!, longitude:Double(placess.address.geo
-                        .lng)!))
-                placesList.append(somep)
-            }
-           
+                apiList.populateLists(urlString: "https://jsonplaceholder.typicode.com/users")
             
         }
         .padding()

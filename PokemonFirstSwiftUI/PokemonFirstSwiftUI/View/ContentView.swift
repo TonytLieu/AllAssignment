@@ -25,7 +25,6 @@ struct ContentView: View {
     @Environment(\.colorScheme) var colorScheme
     @Environment(\.verticalSizeClass) var vSizeClass
     var body: some View {
-       
         NavigationStack{
             VStack {
                 if(vSizeClass == . regular){

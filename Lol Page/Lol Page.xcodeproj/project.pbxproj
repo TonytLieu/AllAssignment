@@ -108,6 +108,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB38D1432B163C430090F68B /* Coordinate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinate;
+			sourceTree = "<group>";
+		};
 		EB53F0782AF3C8F600FC15A6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +178,7 @@
 		EB59DD6C2AF0318400AB9320 /* Lol Page */ = {
 			isa = PBXGroup;
 			children = (
+				EB38D1432B163C430090F68B /* Coordinate */,
 				EB8136F32AFD7B0D007FC0F4 /* ViewModel */,
 				EB53F07A2AF3C90F00FC15A6 /* Controller */,
 				EB53F0782AF3C8F600FC15A6 /* Model */,

@@ -21,7 +21,7 @@ import SwiftUI
 import MapKit
 struct ContentView: View {
     //Span control the overlooking size of the map
-     var userLocation = UserLocationManager()
+    var userLocation = UserLocationManager()
     @StateObject var apiList = GetApiWithCore()
     @State var staticRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: -37.3159, longitude:81.1496),span: MKCoordinateSpan(latitudeDelta: 100, longitudeDelta: 100))
     var somePlace = Place(name: "something", coordinate: CLLocationCoordinate2D(latitude: -37.3159, longitude:81.1496))
@@ -29,39 +29,47 @@ struct ContentView: View {
         guard let location = userLocation.location else{
             return MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: -37.3159, longitude:81.1496),span: MKCoordinateSpan(latitudeDelta: 100, longitudeDelta: 100)).getBinding()
         }
-        let actualRegion = MKCoordinateRegion(center: location.coordinate, span: MKCoordinateSpan(latitudeDelta: 100, longitudeDelta: 100))
+        let actualRegion = MKCoordinateRegion(center: location.coordinate, span: MKCoordinateSpan(latitudeDelta: 5, longitudeDelta: 5))
         return actualRegion.getBinding()
     }
     var body: some View {
         VStack {
             Map{
                 ForEach(apiList.mapsList) { list in
-                    Marker(list.name , coordinate: CLLocationCoordinate2D(latitude: Double(list.address.geo
-                        .lat)!, longitude:Double(list.address.geo
-                            .lng)!))
+//                    Marker(list.name, image: "Image", coordinate: CLLocationCoordinate2D(latitude: Double(list.address.geo
+//                        .lat)!, longitude:Double(list.address.geo
+//                            .lng)!))
+                    Annotation(
+                        list.name,
+                        coordinate: CLLocationCoordinate2D(latitude: Double(list.address.geo
+                            .lat)!, longitude:Double(list.address.geo
+                                .lng)!),
+                        anchor: .bottom
+                    ){
+                        Image("Image")
+                            .resizable()
+                            .frame(width: 40, height: 40)
+
+                    }
+                    //                Marker(place.name ,coordinate: place.coordinate)
+                    //Map(coordinateRegion: $staticRegion ).ignoresSafeArea()
+                    // if let region = region{
+                    // Map(coordinateRegion: $staticRegion ).ignoresSafeArea()
+                    //                ForEach(placesList) { list in
+                    //                }
+                    //                Map(coordinateRegion: region, annotationItems:
+                    //                                        [somePlace]){place in
+                    //                    MapMarker(coordinate: place.coordinate)
+                    //                                }
                 }
-//                Marker(coordinate: place.coordinate) {
-//                    <#code#>
-//                }
-//                Marker(place.name ,coordinate: place.coordinate)
-            //Map(coordinateRegion: $staticRegion ).ignoresSafeArea()
-           // if let region = region{
-               // Map(coordinateRegion: $staticRegion ).ignoresSafeArea()
-//                ForEach(placesList) { list in
-//                }
-//                Map(coordinateRegion: region, annotationItems:
-//                                        [somePlace]){place in
-//                    MapMarker(coordinate: place.coordinate)
-//                                }
-            }
-        }.onAppear(){
+            }.onAppear(){
                 apiList.populateLists(urlString: "https://jsonplaceholder.typicode.com/users")
-            
+                
+            }
+            .padding()
         }
-        .padding()
     }
 }
-    
 
 #Preview {
     ContentView()

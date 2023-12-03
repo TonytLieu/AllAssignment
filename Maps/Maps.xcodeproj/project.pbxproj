@@ -20,6 +20,7 @@
 		EB38D1382B1274230090F68B /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D1372B1274230090F68B /* MapViewModel.swift */; };
 		EB38D13C2B127A860090F68B /* UserLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D13B2B127A860090F68B /* UserLocationManager.swift */; };
 		EB38D13E2B13AAA10090F68B /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D13D2B13AAA10090F68B /* Place.swift */; };
+		EB38D1422B152B6B0090F68B /* PlaceAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D1412B152B6B0090F68B /* PlaceAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		EB38D1372B1274230090F68B /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		EB38D13B2B127A860090F68B /* UserLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationManager.swift; sourceTree = "<group>"; };
 		EB38D13D2B13AAA10090F68B /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		EB38D1412B152B6B0090F68B /* PlaceAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 		EB38D12B2B12720D0090F68B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EB38D1412B152B6B0090F68B /* PlaceAnnotationView.swift */,
 				EB38D0FF2B10438B0090F68B /* ContentView.swift */,
 			);
 			path = View;
@@ -309,6 +312,7 @@
 			files = (
 				EB38D1002B10438B0090F68B /* ContentView.swift in Sources */,
 				EB38D0FE2B10438B0090F68B /* MapsApp.swift in Sources */,
+				EB38D1422B152B6B0090F68B /* PlaceAnnotationView.swift in Sources */,
 				EB38D1312B12728D0090F68B /* CombineApi.swift in Sources */,
 				EB38D13E2B13AAA10090F68B /* Place.swift in Sources */,
 				EB38D1362B1273330090F68B /* MapModel.swift in Sources */,

@@ -366,6 +366,36 @@
                   endingLineNumber = "38"
                   offsetFromSymbolStart = "344">
                </Location>
+               <Location
+                  uuid = "960AA944-32B8-4E65-B7AC-B395EB92C2AF - bca76d6ffbe6bd1b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;Digimon_Pokemon_.PokemonModel&gt;, Swift.Error&gt;) -&gt; () in Digimon_Pokemon_.PokemonCollectionViewController.CallAPI() -&gt; ()"
+                  moduleName = "Digimon(Pokemon)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Digimon(Pokemon)/Digimon(Pokemon)/Controller/PokemonCollectionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "332">
+               </Location>
+               <Location
+                  uuid = "960AA944-32B8-4E65-B7AC-B395EB92C2AF - 7af9c69b4d5d43e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Swift.Array&lt;Digimon_Pokemon_.PokemonModel&gt;, Swift.Error&gt;) -&gt; () in Digimon_Pokemon_.PokemonCollectionViewController.CallAPI() -&gt; ()"
+                  moduleName = "Digimon(Pokemon)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/Digimon(Pokemon)/Digimon(Pokemon)/Controller/PokemonCollectionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "96">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>

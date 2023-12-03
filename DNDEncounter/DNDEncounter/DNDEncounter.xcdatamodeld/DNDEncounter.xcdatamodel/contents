@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22222" systemVersion="23B81" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="MonsterEnitiy" representedClassName="MonsterEnitiy" syncable="YES" codeGenerationType="class">
+        <attribute name="actions" optional="YES" attributeType="String"/>
+        <attribute name="armorClass" optional="YES" attributeType="String"/>
+        <attribute name="cha" optional="YES" attributeType="String"/>
+        <attribute name="challenge" optional="YES" attributeType="String"/>
+        <attribute name="con" optional="YES" attributeType="String"/>
+        <attribute name="conditionImmunities" optional="YES" attributeType="String"/>
+        <attribute name="damageImmunities" optional="YES" attributeType="String"/>
+        <attribute name="damageResistances" optional="YES" attributeType="String"/>
+        <attribute name="damageVulnerabilities" optional="YES" attributeType="String"/>
+        <attribute name="dex" optional="YES" attributeType="String"/>
+        <attribute name="hitPoints" optional="YES" attributeType="String"/>
+        <attribute name="imgURL" optional="YES" attributeType="String"/>
+        <attribute name="int" optional="YES" attributeType="String"/>
+        <attribute name="languages" optional="YES" attributeType="String"/>
+        <attribute name="legendaryActions" optional="YES" attributeType="String"/>
+        <attribute name="meta" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="reactions" optional="YES" attributeType="String"/>
+        <attribute name="savingThrows" optional="YES" attributeType="String"/>
+        <attribute name="senses" optional="YES" attributeType="String"/>
+        <attribute name="skills" optional="YES" attributeType="String"/>
+        <attribute name="speed" optional="YES" attributeType="String"/>
+        <attribute name="str" optional="YES" attributeType="String"/>
+        <attribute name="traits" optional="YES" attributeType="String"/>
+        <attribute name="wis" optional="YES" attributeType="String"/>
+    </entity>
+</model>

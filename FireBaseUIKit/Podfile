@@ -1,0 +1,15 @@
+# Uncomment the next line to define a global platform for your project
+source 'https://cdn.cocoapods.org/'
+
+project 'FirebaseTest'
+platform :ios, '15.0'
+use_frameworks!
+
+target 'FirebaseTest' do
+  use_frameworks!
+
+  # Pods for FirebaseTest
+    pod 'FirebaseUI'
+    pod 'Firebase/Crashlytics'
+    pod 'Firebase/Analytics'
+end

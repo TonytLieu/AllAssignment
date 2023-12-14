@@ -43,7 +43,6 @@ struct PhoneLogin: View {
             
             NavigationLink("Sign In"){
                 //this is where the scene will go to if it sucessful
-                
                 //SignInOnSucessOrFail(SoF: present?.sof ?? false)
                 SignInOnSucessOrFail(SoF: sof)
             }
@@ -56,12 +55,14 @@ struct PhoneLogin: View {
             .hoverEffect()
             //this is where you can
             .onTapGesture {
-                interactor?.loadPhoneLogin(phoneNumber: phoneNumeber, VID: verification)
-                present?.present(respose: interactor!)
-                sof = present?.sof ?? false
-                //SignInAuth(number: phoneNumeber, verification:verification)
+//                interactor?.loadPhoneLogin(phoneNumber: phoneNumeber, VID: verification)
+//                present?.present(respose: interactor!)
+//                sof = present?.sof ?? false
+                SignInAuth(number: phoneNumeber, verification:verification)
                 }
-            }
+        }.onDisappear(){
+            sof = false
+        }
         }
     func SignInAuth(number: String,verification: String){
             PhoneLoginWorker.shared.StartPhoneLogin(phoneNumber: number,verificationID: verification) { sof in

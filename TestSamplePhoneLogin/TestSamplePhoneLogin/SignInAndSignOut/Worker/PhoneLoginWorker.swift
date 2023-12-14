@@ -45,6 +45,8 @@ class PhoneLoginWorker:PhoneLoginWork{
             print(result ?? "none")
             if(result != nil){
                 self.sof = true
+            }else{
+                self.sof = false
             }
             print(error ?? "none")
         }

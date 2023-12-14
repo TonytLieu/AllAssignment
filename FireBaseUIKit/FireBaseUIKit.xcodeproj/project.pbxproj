@@ -21,6 +21,7 @@
 		EB38D2D32B1E0EF60090F68B /* FireBaseUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D2D22B1E0EF60090F68B /* FireBaseUIKitTests.swift */; };
 		EB38D2DD2B1E0EF60090F68B /* FireBaseUIKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D2DC2B1E0EF60090F68B /* FireBaseUIKitUITests.swift */; };
 		EB38D2DF2B1E0EF60090F68B /* FireBaseUIKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38D2DE2B1E0EF60090F68B /* FireBaseUIKitUITestsLaunchTests.swift */; };
+		EB97895A2B2792B1009AC0BF /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9789592B2792B1009AC0BF /* ViewController3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		EB38D2D82B1E0EF60090F68B /* FireBaseUIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireBaseUIKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB38D2DC2B1E0EF60090F68B /* FireBaseUIKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseUIKitUITests.swift; sourceTree = "<group>"; };
 		EB38D2DE2B1E0EF60090F68B /* FireBaseUIKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseUIKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EB9789592B2792B1009AC0BF /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		F92E5B666506EC55E879B1FE /* Pods_FireBaseUIKit_FireBaseUIKitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireBaseUIKit_FireBaseUIKitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -143,10 +145,9 @@
 		EB38D2BA2B1E0EF30090F68B /* FireBaseUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				EB97895B2B2792C3009AC0BF /* ViewController */,
 				EB38D2BB2B1E0EF30090F68B /* AppDelegate.swift */,
 				EB38D2BD2B1E0EF30090F68B /* SceneDelegate.swift */,
-				EB38D2BF2B1E0EF30090F68B /* ViewController.swift */,
-				EB36C9342B1FA11A0022F8C8 /* ViewController2.swift */,
 				EB38D2C12B1E0EF30090F68B /* Main.storyboard */,
 				EB36C9322B1F9B410022F8C8 /* GoogleService-Info.plist */,
 				EB38D2C42B1E0EF50090F68B /* Assets.xcassets */,
@@ -171,6 +172,16 @@
 				EB38D2DE2B1E0EF60090F68B /* FireBaseUIKitUITestsLaunchTests.swift */,
 			);
 			path = FireBaseUIKitUITests;
+			sourceTree = "<group>";
+		};
+		EB97895B2B2792C3009AC0BF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EB38D2BF2B1E0EF30090F68B /* ViewController.swift */,
+				EB36C9342B1FA11A0022F8C8 /* ViewController2.swift */,
+				EB9789592B2792B1009AC0BF /* ViewController3.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -437,6 +448,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB97895A2B2792B1009AC0BF /* ViewController3.swift in Sources */,
 				EB38D2C02B1E0EF30090F68B /* ViewController.swift in Sources */,
 				EB36C9352B1FA11B0022F8C8 /* ViewController2.swift in Sources */,
 				EB38D2BC2B1E0EF30090F68B /* AppDelegate.swift in Sources */,

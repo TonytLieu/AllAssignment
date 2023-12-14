@@ -27,6 +27,7 @@ class GetApiWithCore:ObservableObject{
 //    }
     
     func populateLists(urlString:String){
+        var find = getSqlPath()
         do{
             guard URL(string: urlString) != nil else{ throw NetworkError.urlError}
             networkManagers2.getApi(url: URL(string: "https://dummyjson.com/products")!, modelType: Walmart.self)
@@ -54,7 +55,7 @@ class GetApiWithCore:ObservableObject{
                 }receiveValue: { pl in
                     
                     self.productsList = pl.products
-                    self.getSQlitePath()
+                    find.getSQlitePath().self
                     Task{
                         try await self.coreDataManager.clearAllRecords()
                         try await self.coreDataManager.saveDataIntoDatabase(list: self.productsList)
@@ -80,6 +81,25 @@ class GetApiWithCore:ObservableObject{
             self.filiteredProductsList = newlist.sorted(by: {$0.title < $1.title})
         }
     }
+    
+}
+class searchingFilter{
+    var GetApiWithCore:GetApiWithCore
+    init(GetApiWithCore: GetApiWithCore) {
+        self.GetApiWithCore = GetApiWithCore
+    }
+    func searching(searchText:String){
+        if searchText.isEmpty{
+            GetApiWithCore.filiteredProductsList =  GetApiWithCore.productsList.sorted(by: {$0.title < $1.title})
+        }else{
+            let newlist =  GetApiWithCore.productsList.filter({planet in
+                planet.title.localizedCaseInsensitiveContains(searchText)
+            })
+            GetApiWithCore.filiteredProductsList = newlist.sorted(by: {$0.title < $1.title})
+        }
+    }
+}
+class getSqlPath{
     func getSQlitePath(){
         guard let url = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first else{
             return
@@ -87,5 +107,4 @@ class GetApiWithCore:ObservableObject{
         let sqlitePath = url.appendingPathComponent("Assignment19CoreDataWithUIApp")
         print(sqlitePath.absoluteString)
     }
-    
 }

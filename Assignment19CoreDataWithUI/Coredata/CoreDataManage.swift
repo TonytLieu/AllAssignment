@@ -26,7 +26,6 @@ class CoreDataManage:CoreDataActions{
             throw error
         }
     }
-    
     func DeleteDataIntoDatabase(entry: ProductEnitiy) async throws {
         self.context.delete(entry)
     }
@@ -45,9 +44,8 @@ class CoreDataManage:CoreDataActions{
         try self.context.save()
         print("all data deleted")
     }
-    
-    
 }
+
 protocol CoreDataActions{
     func saveDataIntoDatabase(list:[Product]) async throws
     func DeleteDataIntoDatabase(entry:ProductEnitiy) async throws

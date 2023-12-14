@@ -14,13 +14,26 @@ import FirebasePhoneAuthUI
 import FirebaseFacebookAuthUI
 import FirebaseGoogleAuthUI
 import FirebaseOAuthUI
+import FirebaseAnalytics
+import FirebaseDatabase
+import FirebaseStorage
 
 class ViewController: UIViewController, FUIAuthDelegate {
+    var ref:DatabaseReference!
+    private var urlStorage =  "gs://fir-testing-42e6b.appspot.com"
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        self.setupAndListentoFB()
+    }
+    func setupAndListentoFB(){
+        ref = Database.database().reference()
+        ref.child("Root").observe(.childAdded, with:{snapshot in print(snapshot)})
     }
     @IBAction func SignIn(_ sender: Any) {
+        Analytics.logEvent( AnalyticsEventSignUp, parameters: [
+        "Event" : "Singin"
+        ])
         var actionCodeSettings = ActionCodeSettings()
                 actionCodeSettings.url = URL(string: "fir-testing-42e6b.firebaseapp.com")
                 actionCodeSettings.handleCodeInApp = true
@@ -40,11 +53,16 @@ class ViewController: UIViewController, FUIAuthDelegate {
         }
     }
     @IBAction func SignInReal(_ sender: Any) {
+        Analytics.logEvent( AnalyticsEventLogin, parameters: [
+        "Event" : "Singin"
+        ])
         let authUI = FUIAuth.defaultAuthUI()
         authUI?.delegate = self
         let googleAuthProvider = FUIGoogleAuth(authUI: authUI!)
             let authProviders: [FUIAuthProvider] = [
                 googleAuthProvider
+               // FUIFacebookAuth()
+                
             ]
         authUI?.providers = authProviders
         if let authViewController = authUI?.authViewController(){
@@ -59,5 +77,17 @@ class ViewController: UIViewController, FUIAuthDelegate {
         }
     }
     
+    @IBAction func Save(_ sender: Any) {
+        //create the Rood child and will create another one if push twice
+        //self.ref.child("Root").childByAutoId().setValue(["data": "testData"])
+        //this one is to update the same child
+       //self.ref.child("Root").child("-NlOJ8IGozpL4no8n67x").setValue(["data": "Updated"])
+        //this one will make it nill
+        self.ref.child("Root").child("-NlOJ8IGozpL4no8n67x").setValue("tony")
+    }
+    @IBAction func Storage(_ sender: Any) {
+        // default Firebase App gs://fir-testing-42e6b.appspot.com
+
+    }
 }
 

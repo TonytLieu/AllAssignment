@@ -12,4 +12,5 @@ target 'FirebaseTest' do
     pod 'FirebaseUI'
     pod 'Firebase/Crashlytics'
     pod 'Firebase/Analytics'
+    pod 'Firebase/Storage'
 end

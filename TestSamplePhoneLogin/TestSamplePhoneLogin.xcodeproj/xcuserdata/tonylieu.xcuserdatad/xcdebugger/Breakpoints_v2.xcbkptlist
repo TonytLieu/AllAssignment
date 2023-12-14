@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "AE07716D-A19E-4D99-8BCF-78F535B31F22"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F859CBF9-A29D-4438-AFC1-4460F3FB2606"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestSamplePhoneLogin/SignInAndSignOut/Worker/PhoneLoginWorker.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "StartPhoneLogin(phoneNumber:verificationID:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F859CBF9-A29D-4438-AFC1-4460F3FB2606 - 25724e144bcb010b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in TestSamplePhoneLogin.PhoneLoginWorker.StartPhoneLogin(phoneNumber: Swift.String, verificationID: Swift.String, completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "TestSamplePhoneLogin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/TestSamplePhoneLogin/TestSamplePhoneLogin/SignInAndSignOut/Worker/PhoneLoginWorker.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "400">
+               </Location>
+               <Location
+                  uuid = "F859CBF9-A29D-4438-AFC1-4460F3FB2606 - 25724e144bcb01b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in TestSamplePhoneLogin.PhoneLoginWorker.StartPhoneLogin(phoneNumber: Swift.String, verificationID: Swift.String, completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "TestSamplePhoneLogin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/TestSamplePhoneLogin/TestSamplePhoneLogin/SignInAndSignOut/Worker/PhoneLoginWorker.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "400">
+               </Location>
+               <Location
+                  uuid = "F859CBF9-A29D-4438-AFC1-4460F3FB2606 - 25724e144bcb07e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in TestSamplePhoneLogin.PhoneLoginWorker.StartPhoneLogin(phoneNumber: Swift.String, verificationID: Swift.String, completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "TestSamplePhoneLogin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/TestSamplePhoneLogin/TestSamplePhoneLogin/SignInAndSignOut/Worker/PhoneLoginWorker.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "400">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C4D40AF8-FF6C-4F4F-8F0C-B3A965D9033E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestSamplePhoneLogin/SignInAndSignOut/Interactors/PhoneLoginInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "loadPhoneLogin(phoneNumber:VID:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C4D40AF8-FF6C-4F4F-8F0C-B3A965D9033E - 64f8f81d1bd5031e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestSamplePhoneLogin.PhoneLoginInteractor.loadPhoneLogin(phoneNumber: Swift.String, VID: Swift.String) -&gt; ()"
+                  moduleName = "TestSamplePhoneLogin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/TestSamplePhoneLogin/TestSamplePhoneLogin/SignInAndSignOut/Interactors/PhoneLoginInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "C4D40AF8-FF6C-4F4F-8F0C-B3A965D9033E - 3801322da19ef432"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in TestSamplePhoneLogin.PhoneLoginInteractor.loadPhoneLogin(phoneNumber: Swift.String, VID: Swift.String) -&gt; ()"
+                  moduleName = "TestSamplePhoneLogin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/TestSamplePhoneLogin/TestSamplePhoneLogin/SignInAndSignOut/Interactors/PhoneLoginInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "C4D40AF8-FF6C-4F4F-8F0C-B3A965D9033E - 64f8f81d1bd5031e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestSamplePhoneLogin.PhoneLoginInteractor.loadPhoneLogin(phoneNumber: Swift.String, VID: Swift.String) -&gt; ()"
+                  moduleName = "TestSamplePhoneLogin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/TestSamplePhoneLogin/TestSamplePhoneLogin/SignInAndSignOut/Interactors/PhoneLoginInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "09C8AF4F-28C3-45C2-B841-98F24E174F5B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestSamplePhoneLogin/SignInAndSignOut/View/AuthManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "SignIn(verificationID:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D05E851F-317A-4EA0-8671-F4754B726B60"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestSamplePhoneLogin/SignInAndSignOut/View/PhoneLogin.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "D05E851F-317A-4EA0-8671-F4754B726B60 - b536ba8e7370226"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0)&gt; in TestSamplePhoneLogin.PhoneLogin.body.getter : some"
+                  moduleName = "TestSamplePhoneLogin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/TestSamplePhoneLogin/TestSamplePhoneLogin/SignInAndSignOut/View/PhoneLogin.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "D05E851F-317A-4EA0-8671-F4754B726B60 - b536ba8e7370226"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0)&gt; in TestSamplePhoneLogin.PhoneLogin.body.getter : some"
+                  moduleName = "TestSamplePhoneLogin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/TestSamplePhoneLogin/TestSamplePhoneLogin/SignInAndSignOut/View/PhoneLogin.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "D05E851F-317A-4EA0-8671-F4754B726B60 - b536ba8e7370226"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0)&gt; in TestSamplePhoneLogin.PhoneLogin.body.getter : some"
+                  moduleName = "TestSamplePhoneLogin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonylieu/Desktop/Assigment/TestSamplePhoneLogin/TestSamplePhoneLogin/SignInAndSignOut/View/PhoneLogin.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
